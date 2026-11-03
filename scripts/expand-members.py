@@ -78,6 +78,6 @@ if __name__=='__main__':
     notes=json.loads(path.read_text())
     ids={n['id'] for n in notes}
     with concurrent.futures.ThreadPoolExecutor(4) as pool:
-        notes.extend(pool.map(build,[r for r in rows if f'{r[0]}-{r[1]}' not in ids]))
+        notes.extend(pool.map(build,[r for r in rows if r[0] != 'TWD' and f'{r[0]}-{r[1]}' not in ids]))
     path.write_text(json.dumps(notes,ensure_ascii=False,indent=2)+'\n')
     print(f'{len(notes)} notes in catalogue')

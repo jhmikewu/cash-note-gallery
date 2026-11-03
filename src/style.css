@@ -249,6 +249,20 @@ select {
   line-height: 1.7;
   color: var(--ink);
 }
+.region-selector {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: -8px 0 24px;
+  font-size: 12px;
+}
+.region-selector select {
+  max-width: 100%;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--paper);
+}
 .currency-scope summary {
   cursor: pointer;
 }
@@ -550,7 +564,8 @@ main {
 .note-card:nth-child(3n + 2) .note-display img {
   transform: translateY(-9px) rotate(1deg);
 }
-.note-display:hover img {
+.note-card .note-display:hover img,
+.note-card .note-display:focus-visible img {
   transform: translateY(-17px) rotate(0);
 }
 .note-display.vertical img {
@@ -560,6 +575,11 @@ main {
   max-height: 172px;
 }
 .inspect {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  line-height: 1.2;
   position: absolute;
   bottom: 25px;
   background: #243c35ed;

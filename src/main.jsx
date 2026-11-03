@@ -22,6 +22,8 @@ import {
   euroMembers,
   resolveCountry,
   matchesCountry,
+  chinaRegions,
+  collectionFor,
   defaults,
   filterNotes,
   denomination,
@@ -146,7 +148,7 @@ function Viewer({ note, onClose, onNavigate }) {
             onPointerCancel={() => (drag.current = null)}
           >
             <div
-              className={`zoom-image ${note.orientation === "Vertical" ? "vertical" : ""}`}
+              className={`zoom-image ${(side === "back" ? note.backOrientation || note.orientation : note.orientation) === "Vertical" ? "vertical" : ""}`}
               style={{
                 transform: `translate(${pan.x}px,${pan.y}px) scale(${zoom})`,
               }}
@@ -215,7 +217,11 @@ function Viewer({ note, onClose, onNavigate }) {
             </div>
             <div>
               <dt>Orientation</dt>
-              <dd>{note.orientation}</dd>
+              <dd>
+                {side === "back"
+                  ? note.backOrientation || note.orientation
+                  : note.orientation}
+              </dd>
             </div>
           </dl>
           <p>{note.description}</p>
@@ -266,6 +272,14 @@ function About({ onClose }) {
         denomination, rather than every signature, printing or older valid
         series. UK coverage is Bank of England notes.
       </p>
+      <p>
+        China includes separate Mainland China, Hong Kong SAR and Macau SAR
+        collections, using CNY, HKD and MOP respectively. SAR banknotes use one
+        representative issuer per denomination: Bank of China, plus Hong Kong’s
+        government-issued $10. Other authorised issuers’ designs also circulate.
+        Taiwan is outside this catalogue’s scope; Sweden fills the twentieth
+        member position.
+      </p>
       <h3>One euro-area collection</h3>
       <p>
         The euro area includes {Object.values(euroMembers).join(", ")}. These 21
@@ -311,6 +325,11 @@ function App() {
       return {
         ...defaults,
         country: resolveCountry(p.get("country")),
+        region: ["HK", "MO"].includes(p.get("country"))
+          ? p.get("country")
+          : chinaRegions.some((r) => r.id === p.get("region"))
+            ? p.get("region")
+            : "mainland",
       };
     }),
     [countrySearch, setCountrySearch] = useState(""),
@@ -320,19 +339,21 @@ function App() {
     [mobile, setMobile] = useState(false),
     [expanded, setExpanded] = useState(false);
   const country = countries.find((c) => c.id === f.country),
+    collection = collectionFor(f.country, f.region),
     filtered = filterNotes(notes, f),
-    available = notes.filter((n) => n.currency === country.currency);
+    available = notes.filter((n) => n.currency === collection.currency);
   const update = (k, v) => setF((p) => ({ ...p, [k]: v }));
   const selectCountry = (id) => {
     setF({ ...defaults, country: id });
     setMobile(false);
     const u = new URL(location);
     u.searchParams.set("country", id);
+    u.searchParams.delete("region");
     history.replaceState(null, "", u);
     window.scrollTo({ top: 0 });
   };
   const active = Object.keys(defaults).filter(
-    (k) => !["country", "sort"].includes(k) && f[k] !== defaults[k],
+    (k) => !["country", "region", "sort"].includes(k) && f[k] !== defaults[k],
   ).length;
   return (
     <>
@@ -386,7 +407,7 @@ function App() {
                 >
                   <span className="flag">{c.flag}</span>
                   <span>{c.name}</span>
-                  <small>{c.currency}</small>
+                  <small>{c.id === "CN" ? "3 regions" : c.currency}</small>
                 </button>
               ))}
             {!countries.some((c) => matchesCountry(c, countrySearch)) && (
@@ -425,9 +446,9 @@ function App() {
             <div className="country-identity">
               <span className="large-flag">{country.flag}</span>
               <div>
-                <h2>{country.name}</h2>
+                <h2>{f.country === "CN" ? collection.name : country.name}</h2>
                 <p>
-                  {country.currencyName} <span>{country.currency}</span>
+                  {collection.currencyName} <span>{collection.currency}</span>
                 </p>
               </div>
             </div>
@@ -443,6 +464,29 @@ function App() {
               </button>
             </div>
           </section>
+          {country.id === "CN" && (
+            <div className="region-selector">
+              <label htmlFor="china-region">Region</label>
+              <select
+                id="china-region"
+                value={f.region}
+                onChange={(e) => {
+                  const region = e.target.value;
+                  setF({ ...defaults, country: "CN", region });
+                  const u = new URL(location);
+                  u.searchParams.set("country", "CN");
+                  u.searchParams.set("region", region);
+                  history.replaceState(null, "", u);
+                }}
+              >
+                {chinaRegions.map((r) => (
+                  <option key={r.id} value={r.id}>
+                    {r.name} · {r.currency}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
           {country.id === "EA" && (
             <details className="currency-scope">
               <summary>One currency across 21 countries</summary>
@@ -554,7 +598,9 @@ function App() {
                 </label>
                 <button
                   className="reset"
-                  onClick={() => setF({ ...defaults, country: f.country })}
+                  onClick={() =>
+                    setF({ ...defaults, country: f.country, region: f.region })
+                  }
                 >
                   <RotateCcw size={15} /> Reset filters
                 </button>
@@ -568,7 +614,9 @@ function App() {
               {active > 0 && (
                 <button
                   className="clear-inline"
-                  onClick={() => setF({ ...defaults, country: f.country })}
+                  onClick={() =>
+                    setF({ ...defaults, country: f.country, region: f.region })
+                  }
                 >
                   Clear filters <X size={12} />
                 </button>
@@ -607,7 +655,7 @@ function App() {
             {filtered.map((n) => (
               <article className="note-card" key={n.id}>
                 <button
-                  className={`note-display ${n.orientation === "Vertical" ? "vertical" : ""}`}
+                  className={`note-display ${(side === "back" ? n.backOrientation || n.orientation : n.orientation) === "Vertical" ? "vertical" : ""}`}
                   onClick={() => setSelected(n)}
                   aria-label={`Inspect ${denomination(n)}`}
                 >
@@ -636,7 +684,11 @@ function App() {
               <Search size={32} />
               <h2>No notes on this shelf.</h2>
               <p>Try another value, material, or year range.</p>
-              <button onClick={() => setF({ ...defaults, country: f.country })}>
+              <button
+                onClick={() =>
+                  setF({ ...defaults, country: f.country, region: f.region })
+                }
+              >
                 Reset filters
               </button>
             </div>

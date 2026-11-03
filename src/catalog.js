@@ -16,9 +16,9 @@ export const countries = [
   ["SA", "Saudi Arabia", "SAR", "Saudi riyal", "🇸🇦"],
   ["CH", "Switzerland", "CHF", "Swiss franc", "🇨🇭"],
   ["PL", "Poland", "PLN", "Polish złoty", "🇵🇱"],
-  ["TW", "Taiwan", "TWD", "New Taiwan dollar", "🇹🇼"],
   ["AR", "Argentina", "ARS", "Argentine peso", "🇦🇷"],
   ["IL", "Israel", "ILS", "Israeli new shekel", "🇮🇱"],
+  ["SE", "Sweden", "SEK", "Swedish krona", "🇸🇪"],
 ].map(([id, name, currency, currencyName, flag], i) => ({
   id,
   name,
@@ -53,6 +53,7 @@ export const euroMembers = {
   ES: "Spain",
 };
 export function resolveCountry(id) {
+  if (["HK", "MO"].includes(id)) return "CN";
   if (Object.hasOwn(euroMembers, id)) return "EA";
   return countries.some((c) => c.id === id) ? id : "US";
 }
@@ -60,13 +61,16 @@ export function matchesCountry(country, query) {
   const names =
     country.id === "EA"
       ? Object.values(euroMembers).join(" ") + " Eurozone"
-      : "";
+      : country.id === "CN"
+        ? "Mainland China Hong Kong Macau Macao SAR HKD MOP"
+        : "";
   return `${country.name} ${country.currency} ${names}`
     .toLowerCase()
     .includes(query.toLowerCase());
 }
 export const defaults = {
   country: "US",
+  region: "mainland",
   query: "",
   material: "all",
   denomination: "all",
@@ -77,9 +81,7 @@ export const defaults = {
   sort: "value",
 };
 export function filterNotes(notes, filters) {
-  const currency = countries.find(
-    (c) => c.id === resolveCountry(filters.country),
-  ).currency;
+  const currency = collectionFor(filters.country, filters.region).currency;
   return notes
     .filter(
       (n) =>
@@ -106,6 +108,35 @@ export function filterNotes(notes, filters) {
           ? b.value - a.value
           : a.currency.localeCompare(b.currency) || a.value - b.value,
     );
+}
+export const chinaRegions = [
+  {
+    id: "mainland",
+    name: "Mainland China",
+    currency: "CNY",
+    currencyName: "Chinese yuan",
+  },
+  {
+    id: "HK",
+    name: "Hong Kong SAR, China",
+    currency: "HKD",
+    currencyName: "Hong Kong dollar",
+  },
+  {
+    id: "MO",
+    name: "Macau SAR, China",
+    currency: "MOP",
+    currencyName: "Macanese pataca",
+  },
+];
+export function collectionFor(country, region) {
+  if (resolveCountry(country) === "CN")
+    return (
+      chinaRegions.find(
+        (r) => r.id === (["HK", "MO"].includes(country) ? country : region),
+      ) || chinaRegions[0]
+    );
+  return countries.find((c) => c.id === resolveCountry(country));
 }
 export function denomination(note) {
   return new Intl.NumberFormat("en-US", {

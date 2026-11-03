@@ -56,7 +56,7 @@ test("euro area occupies one member and preserves country links and search", () 
 test("replacement members contain the current denomination sets and local images", () => {
   for (const [country, values] of Object.entries({
     PL: [10, 20, 50, 100, 200, 500],
-    TW: [100, 200, 500, 1000, 2000],
+    SE: [20, 50, 100, 200, 500, 1000],
     AR: [10, 20, 50, 100, 200, 500, 1000, 2000, 10000, 20000],
     IL: [20, 50, 100, 200],
   })) {
@@ -84,6 +84,26 @@ test("year range uses interval overlap and rejects reversed ranges", () => {
   assert.equal(
     filterNotes(notes, { ...defaults, from: "2020", to: "2000" }).length,
     0,
+  );
+});
+test("China SAR collections stay under China with independent currencies", () => {
+  assert.ok(!countries.some((c) => ["TW", "HK", "MO"].includes(c.id)));
+  assert.ok(!notes.some((n) => n.currency === "TWD"));
+  for (const [region, currency] of [
+    ["mainland", "CNY"],
+    ["HK", "HKD"],
+    ["MO", "MOP"],
+  ]) {
+    const result = filterNotes(notes, { ...defaults, country: "CN", region });
+    assert.equal(result.length, 6);
+    assert.ok(result.every((n) => n.currency === currency));
+  }
+  assert.equal(resolveCountry("HK"), "CN");
+  assert.ok(
+    matchesCountry(
+      countries.find((c) => c.id === "CN"),
+      "Macau",
+    ),
   );
 });
 test("combined material, denomination and text filters", () => {
