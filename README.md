@@ -23,7 +23,8 @@ The static production site is generated in `dist/`. Vite uses relative asset pat
 
 ## Features
 
-- 20 countries selected by nominal GDP, defaulting to the United States.
+- 20 collection members selected by nominal GDP, with the euro area counted once and the United States selected by default.
+- Fixed-in-view top bar and country panel, with an independently scrollable member list.
 - Country search and shareable `?country=XX` links.
 - Denomination, material, active year range, issue status, and orientation filters.
 - Search portraits, landmarks, currencies, and series; sort by denomination or design introduction.
@@ -33,7 +34,11 @@ The static production site is generated in `dist/`. Vite uses relative asset pat
 
 ## Catalogue scope and sources
 
-The 20 economies follow the **IMF October 2026 nominal GDP projections**, as [tabulated by Visual Capitalist](https://www.visualcapitalist.com/the-worlds-largest-economies-by-gdp-in-2026/). Germany, France, Italy, Spain, and the Netherlands share the same euro records. The UK collection covers Bank of England notes, not the separate Scottish and Northern Irish issuers.
+The 20 members follow the **IMF October 2026 nominal GDP projections**, as [tabulated by Visual Capitalist](https://www.visualcapitalist.com/the-128-trillion-global-economy-in-2026/). Walk down the country ranking, count the euro area once at Germany’s position, skip subsequent euro-area countries, and continue until there are 20 members. This adds Poland, Taiwan, Argentina and Israel. The euro area’s position is a browsing convention, not a separate calculation of aggregate GDP. There are 122 representative banknotes and 244 locally bundled images. The UK collection covers Bank of England notes, not the separate Scottish and Northern Irish issuers.
+
+The [ECB lists 21 euro-area countries](https://www.ecb.europa.eu/euro/intro/html/index.en.html), including Bulgaria from January 2026. At the snapshot date none retains its former national currency as parallel legal tender. Bulgaria’s temporary lev/euro dual circulation ended on January 31, 2026. Exchangeability of old notes and voluntary acceptance by shops are distinct from legal-tender status. Member-country searches and old country links (such as `?country=DE`) resolve to the Euro area collection.
+
+The additional collections use denomination and introduction-date references from [NBP](https://nbp.pl/banknoty-i-monety/banknoty-obiegowe/), [CBC](https://www.cbc.gov.tw/public/data/issue/money/a1/t02.html), [BCRA](https://www.bcra.gob.ar/billetes-y-monedas-en-vigencia/) and [Bank of Israel](https://www.boi.org.il/en/economic-roles/banknotes-and-coins/third-series-of-the-new-shekel-2014/). Their attributed scans are from Banknote Museum. `scripts/expand-members.py` adds these reviewed records without rebuilding the original catalogue.
 
 This first edition curates **one representative current design per selected denomination**, not every still-valid historical series, signature, commemorative, or printing variety. It is a research snapshot dated **2026-11-03**, not a live register of legal tender. Active years refer to the illustrated design's introduction, not a specimen's printed series date. Range filtering uses interval overlap with introduction–2026. A note can remain valid while no longer being issued or while being withdrawn from circulation; those statuses are deliberately distinct.
 

@@ -66,6 +66,9 @@ select {
   color: var(--ink);
 }
 .topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
   height: 86px;
   background: #f9fbfb;
   border-bottom: 1px solid var(--line);
@@ -129,6 +132,11 @@ select {
   min-height: calc(100vh - 86px);
 }
 .country-sidebar {
+  position: sticky;
+  top: 86px;
+  height: calc(100dvh - 86px);
+  min-height: 0;
+  align-self: start;
   background: #f9fbfb;
   border-right: 1px solid var(--line);
   padding: 31px 19px 20px;
@@ -171,11 +179,16 @@ select {
   font-size: 11px;
 }
 .country-list {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  min-height: 0;
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 3px;
 }
 .country-button {
+  flex-shrink: 0;
   justify-content: start;
   text-align: left;
   width: 100%;
@@ -207,6 +220,7 @@ select {
   color: #35644f;
 }
 .sidebar-foot {
+  flex-shrink: 0;
   border-top: 1px solid var(--line);
   margin: 26px 9px 0;
   padding-top: 20px;
@@ -228,6 +242,18 @@ select {
 .mobile-close,
 .mobile-country {
   display: none;
+}
+.currency-scope {
+  margin: -10px 0 24px;
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--ink);
+}
+.currency-scope summary {
+  cursor: pointer;
+}
+.currency-scope p {
+  max-width: 850px;
 }
 main {
   padding: 44px 49px 20px;
@@ -1047,6 +1073,7 @@ dialog::backdrop {
     position: fixed;
     z-index: 5;
     inset: 70px 0 0;
+    height: calc(100dvh - 70px);
     width: 100%;
     overflow: auto;
     padding: 25px;

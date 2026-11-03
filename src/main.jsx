@@ -19,6 +19,9 @@ import {
 } from "lucide-react";
 import {
   countries,
+  euroMembers,
+  resolveCountry,
+  matchesCountry,
   defaults,
   filterNotes,
   denomination,
@@ -256,12 +259,29 @@ function About({ onClose }) {
       </p>
       <h3>What’s on the shelves</h3>
       <p>
-        The 20 largest economies by nominal GDP, based on the IMF October 2026
-        projections. Euro-area countries share the same banknote designs. This
-        first collection features a representative current design for each
+        20 collection members selected from the IMF October 2026 nominal GDP
+        ranking, counting the euro area once at its first country’s position and
+        continuing down the ranking to fill the remaining places. This first
+        collection features a representative current design for each
         denomination, rather than every signature, printing or older valid
         series. UK coverage is Bank of England notes.
       </p>
+      <h3>One euro-area collection</h3>
+      <p>
+        The euro area includes {Object.values(euroMembers).join(", ")}. These 21
+        countries use the euro as their national currency. As of November 3,
+        2026, none also uses its former national currency as parallel legal
+        tender. Bulgaria’s temporary euro/lev cash circulation ended on January
+        31, 2026. Exchangeable old notes and voluntary shop acceptance of
+        foreign currency do not make a currency legal tender.
+      </p>
+      <a
+        href="https://www.ecb.europa.eu/euro/intro/html/index.en.html"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Euro-area membership & currencies <ArrowUpRight size={16} />
+      </a>
       <p>
         “Active years” means the illustrated design’s introduction through
         today, not the date printed on an individual note. Year filters find
@@ -290,9 +310,7 @@ function App() {
       const p = new URLSearchParams(location.search);
       return {
         ...defaults,
-        country: countries.some((c) => c.id === p.get("country"))
-          ? p.get("country")
-          : "US",
+        country: resolveCountry(p.get("country")),
       };
     }),
     [countrySearch, setCountrySearch] = useState(""),
@@ -311,6 +329,7 @@ function App() {
     const u = new URL(location);
     u.searchParams.set("country", id);
     history.replaceState(null, "", u);
+    window.scrollTo({ top: 0 });
   };
   const active = Object.keys(defaults).filter(
     (k) => !["country", "sort"].includes(k) && f[k] !== defaults[k],
@@ -337,7 +356,7 @@ function App() {
       <div className="app-layout">
         <aside className={`country-sidebar ${mobile ? "mobile-open" : ""}`}>
           <div className="sidebar-title">
-            <h2>Explore countries</h2>
+            <h2>Explore members</h2>
             <span>20</span>
             <button
               className="mobile-close icon-button"
@@ -358,11 +377,7 @@ function App() {
           </label>
           <div className="country-list">
             {countries
-              .filter((c) =>
-                `${c.name} ${c.currency}`
-                  .toLowerCase()
-                  .includes(countrySearch.toLowerCase()),
-              )
+              .filter((c) => matchesCountry(c, countrySearch))
               .map((c) => (
                 <button
                   key={c.id}
@@ -374,16 +389,14 @@ function App() {
                   <small>{c.currency}</small>
                 </button>
               ))}
-            {!countries.some((c) =>
-              `${c.name} ${c.currency}`
-                .toLowerCase()
-                .includes(countrySearch.toLowerCase()),
-            ) && <p className="no-countries">No countries found.</p>}
+            {!countries.some((c) => matchesCountry(c, countrySearch)) && (
+              <p className="no-countries">No members found.</p>
+            )}
           </div>
           <div className="sidebar-foot">
             <Globe2 size={18} />
             <p>
-              The world’s 20 largest economies.
+              20 members. Euro area counted once.
               <button onClick={() => setAbout(true)}>
                 How we curate <ArrowUpRight size={13} />
               </button>
@@ -402,7 +415,7 @@ function App() {
             <div className="collection-stamp">
               <Globe2 size={28} />
               <span>
-                20 countries
+                20 members
                 <br />
                 <b>Countless stories</b>
               </span>
@@ -430,6 +443,17 @@ function App() {
               </button>
             </div>
           </section>
+          {country.id === "EA" && (
+            <details className="currency-scope">
+              <summary>One currency across 21 countries</summary>
+              <p>{Object.values(euroMembers).join(", ")}.</p>
+              <p>
+                The euro is their national currency; no former national currency
+                remains parallel legal tender. See collection notes for
+                changeover details.
+              </p>
+            </details>
+          )}
           <section className="filters" aria-label="Filter banknotes">
             <div className="filter-main">
               <label className="note-search">

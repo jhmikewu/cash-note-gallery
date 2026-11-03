@@ -1,24 +1,24 @@
 export const countries = [
   ["US", "United States", "USD", "US dollar", "🇺🇸"],
   ["CN", "China", "CNY", "Chinese yuan", "🇨🇳"],
-  ["DE", "Germany", "EUR", "Euro", "🇩🇪"],
+  ["EA", "Euro area", "EUR", "Euro", "🇪🇺"],
   ["JP", "Japan", "JPY", "Japanese yen", "🇯🇵"],
   ["GB", "United Kingdom", "GBP", "Pound sterling", "🇬🇧"],
   ["IN", "India", "INR", "Indian rupee", "🇮🇳"],
-  ["FR", "France", "EUR", "Euro", "🇫🇷"],
   ["RU", "Russia", "RUB", "Russian ruble", "🇷🇺"],
-  ["IT", "Italy", "EUR", "Euro", "🇮🇹"],
   ["BR", "Brazil", "BRL", "Brazilian real", "🇧🇷"],
   ["CA", "Canada", "CAD", "Canadian dollar", "🇨🇦"],
   ["KR", "South Korea", "KRW", "South Korean won", "🇰🇷"],
   ["MX", "Mexico", "MXN", "Mexican peso", "🇲🇽"],
   ["AU", "Australia", "AUD", "Australian dollar", "🇦🇺"],
-  ["ES", "Spain", "EUR", "Euro", "🇪🇸"],
   ["TR", "Türkiye", "TRY", "Turkish lira", "🇹🇷"],
   ["ID", "Indonesia", "IDR", "Indonesian rupiah", "🇮🇩"],
-  ["NL", "Netherlands", "EUR", "Euro", "🇳🇱"],
   ["SA", "Saudi Arabia", "SAR", "Saudi riyal", "🇸🇦"],
   ["CH", "Switzerland", "CHF", "Swiss franc", "🇨🇭"],
+  ["PL", "Poland", "PLN", "Polish złoty", "🇵🇱"],
+  ["TW", "Taiwan", "TWD", "New Taiwan dollar", "🇹🇼"],
+  ["AR", "Argentina", "ARS", "Argentine peso", "🇦🇷"],
+  ["IL", "Israel", "ILS", "Israeli new shekel", "🇮🇱"],
 ].map(([id, name, currency, currencyName, flag], i) => ({
   id,
   name,
@@ -28,7 +28,43 @@ export const countries = [
   rank: i + 1,
 }));
 export const rankingSource =
-  "https://www.visualcapitalist.com/the-worlds-largest-economies-by-gdp-in-2026/";
+  "https://www.visualcapitalist.com/the-128-trillion-global-economy-in-2026/";
+export const euroMembers = {
+  AT: "Austria",
+  BE: "Belgium",
+  BG: "Bulgaria",
+  HR: "Croatia",
+  CY: "Cyprus",
+  EE: "Estonia",
+  FI: "Finland",
+  FR: "France",
+  DE: "Germany",
+  GR: "Greece",
+  IE: "Ireland",
+  IT: "Italy",
+  LV: "Latvia",
+  LT: "Lithuania",
+  LU: "Luxembourg",
+  MT: "Malta",
+  NL: "Netherlands",
+  PT: "Portugal",
+  SK: "Slovakia",
+  SI: "Slovenia",
+  ES: "Spain",
+};
+export function resolveCountry(id) {
+  if (Object.hasOwn(euroMembers, id)) return "EA";
+  return countries.some((c) => c.id === id) ? id : "US";
+}
+export function matchesCountry(country, query) {
+  const names =
+    country.id === "EA"
+      ? Object.values(euroMembers).join(" ") + " Eurozone"
+      : "";
+  return `${country.name} ${country.currency} ${names}`
+    .toLowerCase()
+    .includes(query.toLowerCase());
+}
 export const defaults = {
   country: "US",
   query: "",
@@ -41,7 +77,9 @@ export const defaults = {
   sort: "value",
 };
 export function filterNotes(notes, filters) {
-  const currency = countries.find((c) => c.id === filters.country)?.currency;
+  const currency = countries.find(
+    (c) => c.id === resolveCountry(filters.country),
+  ).currency;
   return notes
     .filter(
       (n) =>
