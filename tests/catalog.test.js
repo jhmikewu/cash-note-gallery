@@ -12,8 +12,12 @@ import {
 const notes = JSON.parse(
   readFileSync(new URL("../src/notes.json", import.meta.url)),
 );
-test("20 economies each have a complete nonempty collection", () => {
-  assert.equal(countries.length, 20);
+test("19 countries, euro area and two SARs have complete collections", () => {
+  assert.equal(countries.length, 22);
+  assert.equal(
+    countries.filter((c) => !["EA", "HK", "MO"].includes(c.id)).length,
+    19,
+  );
   assert.equal(new Set(notes.map((n) => n.id)).size, notes.length);
   for (const c of countries) {
     assert.ok(
@@ -86,22 +90,22 @@ test("year range uses interval overlap and rejects reversed ranges", () => {
     0,
   );
 });
-test("China SAR collections stay under China with independent currencies", () => {
-  assert.ok(!countries.some((c) => ["TW", "HK", "MO"].includes(c.id)));
+test("China SARs have separate entries and independent currencies", () => {
+  assert.ok(!countries.some((c) => c.id === "TW"));
   assert.ok(!notes.some((n) => n.currency === "TWD"));
-  for (const [region, currency] of [
-    ["mainland", "CNY"],
+  for (const [country, currency] of [
+    ["CN", "CNY"],
     ["HK", "HKD"],
     ["MO", "MOP"],
   ]) {
-    const result = filterNotes(notes, { ...defaults, country: "CN", region });
+    const result = filterNotes(notes, { ...defaults, country });
     assert.equal(result.length, 6);
     assert.ok(result.every((n) => n.currency === currency));
   }
-  assert.equal(resolveCountry("HK"), "CN");
+  assert.equal(resolveCountry("HK"), "HK");
   assert.ok(
     matchesCountry(
-      countries.find((c) => c.id === "CN"),
+      countries.find((c) => c.id === "MO"),
       "Macau",
     ),
   );

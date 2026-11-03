@@ -1,6 +1,8 @@
 export const countries = [
   ["US", "United States", "USD", "US dollar", "🇺🇸"],
   ["CN", "China", "CNY", "Chinese yuan", "🇨🇳"],
+  ["HK", "Hong Kong SAR, China", "HKD", "Hong Kong dollar", "🇭🇰"],
+  ["MO", "Macau SAR, China", "MOP", "Macanese pataca", "🇲🇴"],
   ["EA", "Euro area", "EUR", "Euro", "🇪🇺"],
   ["JP", "Japan", "JPY", "Japanese yen", "🇯🇵"],
   ["GB", "United Kingdom", "GBP", "Pound sterling", "🇬🇧"],
@@ -53,7 +55,6 @@ export const euroMembers = {
   ES: "Spain",
 };
 export function resolveCountry(id) {
-  if (["HK", "MO"].includes(id)) return "CN";
   if (Object.hasOwn(euroMembers, id)) return "EA";
   return countries.some((c) => c.id === id) ? id : "US";
 }
@@ -62,8 +63,10 @@ export function matchesCountry(country, query) {
     country.id === "EA"
       ? Object.values(euroMembers).join(" ") + " Eurozone"
       : country.id === "CN"
-        ? "Mainland China Hong Kong Macau Macao SAR HKD MOP"
-        : "";
+        ? "Mainland China"
+        : country.id === "MO"
+          ? "Macao"
+          : "";
   return `${country.name} ${country.currency} ${names}`
     .toLowerCase()
     .includes(query.toLowerCase());
@@ -109,33 +112,7 @@ export function filterNotes(notes, filters) {
           : a.currency.localeCompare(b.currency) || a.value - b.value,
     );
 }
-export const chinaRegions = [
-  {
-    id: "mainland",
-    name: "Mainland China",
-    currency: "CNY",
-    currencyName: "Chinese yuan",
-  },
-  {
-    id: "HK",
-    name: "Hong Kong SAR, China",
-    currency: "HKD",
-    currencyName: "Hong Kong dollar",
-  },
-  {
-    id: "MO",
-    name: "Macau SAR, China",
-    currency: "MOP",
-    currencyName: "Macanese pataca",
-  },
-];
-export function collectionFor(country, region) {
-  if (resolveCountry(country) === "CN")
-    return (
-      chinaRegions.find(
-        (r) => r.id === (["HK", "MO"].includes(country) ? country : region),
-      ) || chinaRegions[0]
-    );
+export function collectionFor(country) {
   return countries.find((c) => c.id === resolveCountry(country));
 }
 export function denomination(note) {

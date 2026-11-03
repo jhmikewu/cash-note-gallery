@@ -22,7 +22,6 @@ import {
   euroMembers,
   resolveCountry,
   matchesCountry,
-  chinaRegions,
   collectionFor,
   defaults,
   filterNotes,
@@ -265,20 +264,20 @@ function About({ onClose }) {
       </p>
       <h3>What’s on the shelves</h3>
       <p>
-        20 collection members selected from the IMF October 2026 nominal GDP
-        ranking, counting the euro area once at its first country’s position and
-        continuing down the ranking to fill the remaining places. This first
-        collection features a representative current design for each
+        19 countries and the euro area selected from the IMF October 2026
+        nominal GDP ranking, counting the euro area once at its first country’s
+        position and continuing down the ranking to fill the remaining places.
+        This first collection features a representative current design for each
         denomination, rather than every signature, printing or older valid
         series. UK coverage is Bank of England notes.
       </p>
       <p>
-        China includes separate Mainland China, Hong Kong SAR and Macau SAR
-        collections, using CNY, HKD and MOP respectively. SAR banknotes use one
-        representative issuer per denomination: Bank of China, plus Hong Kong’s
-        government-issued $10. Other authorised issuers’ designs also circulate.
-        Taiwan is outside this catalogue’s scope; Sweden fills the twentieth
-        member position.
+        Hong Kong SAR, China and Macau SAR, China are two additional entries,
+        bringing the list to 22 members. China uses CNY, Hong Kong uses HKD and
+        Macau uses MOP. SAR banknotes use one representative issuer per
+        denomination: Bank of China, plus Hong Kong’s government-issued $10.
+        Other authorised issuers’ designs also circulate. Taiwan is outside this
+        catalogue’s scope; Sweden fills the twentieth member position.
       </p>
       <h3>One euro-area collection</h3>
       <p>
@@ -324,12 +323,11 @@ function App() {
       const p = new URLSearchParams(location.search);
       return {
         ...defaults,
-        country: resolveCountry(p.get("country")),
-        region: ["HK", "MO"].includes(p.get("country"))
-          ? p.get("country")
-          : chinaRegions.some((r) => r.id === p.get("region"))
+        country: resolveCountry(
+          p.get("country") === "CN" && ["HK", "MO"].includes(p.get("region"))
             ? p.get("region")
-            : "mainland",
+            : p.get("country"),
+        ),
       };
     }),
     [countrySearch, setCountrySearch] = useState(""),
@@ -378,7 +376,7 @@ function App() {
         <aside className={`country-sidebar ${mobile ? "mobile-open" : ""}`}>
           <div className="sidebar-title">
             <h2>Explore members</h2>
-            <span>20</span>
+            <span>{countries.length}</span>
             <button
               className="mobile-close icon-button"
               onClick={() => setMobile(false)}
@@ -407,7 +405,7 @@ function App() {
                 >
                   <span className="flag">{c.flag}</span>
                   <span>{c.name}</span>
-                  <small>{c.id === "CN" ? "3 regions" : c.currency}</small>
+                  <small>{c.currency}</small>
                 </button>
               ))}
             {!countries.some((c) => matchesCountry(c, countrySearch)) && (
@@ -417,7 +415,7 @@ function App() {
           <div className="sidebar-foot">
             <Globe2 size={18} />
             <p>
-              20 members. Euro area counted once.
+              19 countries · Euro area · 2 SARs
               <button onClick={() => setAbout(true)}>
                 How we curate <ArrowUpRight size={13} />
               </button>
@@ -436,7 +434,7 @@ function App() {
             <div className="collection-stamp">
               <Globe2 size={28} />
               <span>
-                20 members
+                {countries.length} members
                 <br />
                 <b>Countless stories</b>
               </span>
@@ -446,7 +444,7 @@ function App() {
             <div className="country-identity">
               <span className="large-flag">{country.flag}</span>
               <div>
-                <h2>{f.country === "CN" ? collection.name : country.name}</h2>
+                <h2>{country.name}</h2>
                 <p>
                   {collection.currencyName} <span>{collection.currency}</span>
                 </p>
@@ -464,29 +462,6 @@ function App() {
               </button>
             </div>
           </section>
-          {country.id === "CN" && (
-            <div className="region-selector">
-              <label htmlFor="china-region">Region</label>
-              <select
-                id="china-region"
-                value={f.region}
-                onChange={(e) => {
-                  const region = e.target.value;
-                  setF({ ...defaults, country: "CN", region });
-                  const u = new URL(location);
-                  u.searchParams.set("country", "CN");
-                  u.searchParams.set("region", region);
-                  history.replaceState(null, "", u);
-                }}
-              >
-                {chinaRegions.map((r) => (
-                  <option key={r.id} value={r.id}>
-                    {r.name} · {r.currency}
-                  </option>
-                ))}
-              </select>
-            </div>
-          )}
           {country.id === "EA" && (
             <details className="currency-scope">
               <summary>One currency across 21 countries</summary>
