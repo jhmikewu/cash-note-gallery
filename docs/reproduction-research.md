@@ -13,3 +13,5 @@ This is a record of source checks, not a blanket legal clearance. Availability o
 | US | https://www.uscurrency.gov/media/currency-image-use | No universal SPECIMEN condition; size, one-sided reproduction, and production-material conditions apply. |
 
 Other issuers still need individual review. No existing marked image has been replaced on the assumption that a museum or Wikimedia copy automatically clears all conditions.
+
+The ordinary-series batch uses ECB-supplied first-series SPECIMEN images and SNB-sourced sixth/eighth-series images reduced to 72 dpi with SPECIMEN overprints. Hong Kong's [screen-image exemption](https://www.hkma.gov.hk/eng/key-functions/money/hong-kong-currency/reproduction-of-hong-kong-currency/reproduction-of-hong-kong-notes) is separate from issuer copyright consent, which has not been obtained. Macau reproduction/source rights are unresolved. SAR museum reference scans retain all supplied markings; they are not represented as rights-cleared. See [batch provenance](ordinary-series-expansion.md).

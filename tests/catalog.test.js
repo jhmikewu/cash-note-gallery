@@ -122,7 +122,11 @@ test("euro area occupies one member and preserves country links and search", () 
       filterNotes(notes, { ...defaults, country: "EA" }),
     );
   }
-  assert.equal(filterNotes(notes, { ...defaults, country: "EA" }).length, 7);
+  assert.equal(
+    groupDenominations(filterNotes(notes, { ...defaults, country: "EA" }))
+      .length,
+    7,
+  );
 });
 test("replacement members contain the current denomination sets and local images", () => {
   for (const [country, values] of Object.entries({
@@ -166,7 +170,7 @@ test("China SARs have separate entries and independent currencies", () => {
     ["MO", "MOP"],
   ]) {
     const result = filterNotes(notes, { ...defaults, country });
-    assert.equal(result.length, 6);
+    assert.equal(groupDenominations(result).length, 6);
     assert.ok(result.every((n) => n.currency === currency));
   }
   assert.equal(resolveCountry("HK"), "HK");
@@ -195,9 +199,12 @@ test("combined material, denomination and text filters", () => {
 });
 test("withdrawn-from-issue notes remain discoverable", () => {
   assert.equal(
-    filterNotes(notes, { ...defaults, country: "DE", status: "Not issued" })[0]
-      .value,
-    500,
+    filterNotes(notes, {
+      ...defaults,
+      country: "DE",
+      status: "Not issued",
+    }).some((n) => n.value === 500),
+    true,
   );
   assert.equal(
     filterNotes(notes, { ...defaults, country: "IN", status: "Withdrawing" })[0]
@@ -207,12 +214,48 @@ test("withdrawn-from-issue notes remain discoverable", () => {
 });
 test("vertical orientation and newest ordering work", () => {
   assert.equal(
-    filterNotes(notes, { ...defaults, country: "CH", orientation: "Vertical" })
-      .length,
+    filterNotes(notes, {
+      ...defaults,
+      country: "CH",
+      orientation: "Vertical",
+    }).filter((n) => n.status !== "Withdrawn").length,
     6,
   );
   assert.equal(
     filterNotes(notes, { ...defaults, sort: "newest" })[0].value,
     100,
   );
+});
+test("ordinary issuer variants share shelves and respect actual introduction dates", () => {
+  const hk = filterNotes(notes, {
+    ...defaults,
+    country: "HK",
+    denomination: "20",
+  });
+  assert.equal(groupDenominations(hk).length, 1);
+  assert.equal(hk.length, 9);
+  assert.ok(hk.some((n) => n.issuer === "HSBC"));
+  assert.ok(hk.some((n) => n.issuer === "Standard Chartered Bank (Hong Kong)"));
+  const early = filterNotes(notes, { ...defaults, country: "HK", to: "2003" });
+  assert.deepEqual([...new Set(early.map((n) => n.value))], [10, 100, 500]);
+  const macau = filterNotes(notes, {
+    ...defaults,
+    country: "MO",
+    query: "Ultramarino",
+  });
+  assert.equal(macau.length, 12);
+});
+test("Swiss recall boundaries preserve cutoff-year eligibility", () => {
+  const sixth = notes.filter(
+    (n) => n.currency === "CHF" && n.series === "Sixth series",
+  );
+  assert.equal(sixth.length, 6);
+  assert.ok(sixth.every((n) => overlapsPeriod(n, "2000-01-01", "2000-04-30")));
+  assert.ok(sixth.every((n) => !overlapsPeriod(n, "2000-05-01", "2026-11-03")));
+  const later = filterNotes(notes, {
+    ...defaults,
+    country: "CH",
+    from: "2022",
+  });
+  assert.equal(later.length, 6);
 });
