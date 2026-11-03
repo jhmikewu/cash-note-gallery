@@ -26,6 +26,7 @@ import {
   circulationLabel,
   defaults,
   filterNotes,
+  groupDenominations,
   denomination,
   rankingSource,
 } from "./catalog";
@@ -75,7 +76,7 @@ function Modal({ children, onClose, label, className = "" }) {
     </dialog>
   );
 }
-function Viewer({ note, onClose, onNavigate }) {
+function Viewer({ note, variants, onSelectVariant, onClose, onNavigate }) {
   const [side, setSide] = useState("front"),
     [zoom, setZoom] = useState(1),
     [pan, setPan] = useState({ x: 0, y: 0 });
@@ -108,86 +109,103 @@ function Viewer({ note, onClose, onNavigate }) {
         </button>
       </div>
       <div className="viewer-body">
-        <div className="view-workspace">
-          <div className="side-tabs">
-            <button
-              className={side === "front" ? "selected" : ""}
-              onClick={() => {
-                setSide("front");
-                changeZoom(1);
-              }}
-            >
-              Front
-            </button>
-            <button
-              className={side === "back" ? "selected" : ""}
-              onClick={() => {
-                setSide("back");
-                changeZoom(1);
-              }}
-            >
-              Back
-            </button>
-          </div>
-          <div
-            className="zoom-stage"
-            onPointerDown={(e) => {
-              if (zoom > 1) {
-                drag.current = { x: e.clientX - pan.x, y: e.clientY - pan.y };
-                e.currentTarget.setPointerCapture(e.pointerId);
-              }
-            }}
-            onPointerMove={(e) => {
-              if (drag.current)
-                setPan({
-                  x: e.clientX - drag.current.x,
-                  y: e.clientY - drag.current.y,
-                });
-            }}
-            onPointerUp={() => (drag.current = null)}
-            onPointerCancel={() => (drag.current = null)}
-          >
-            <div
-              className={`zoom-image ${(side === "back" ? note.backOrientation || note.orientation : note.orientation) === "Vertical" ? "vertical" : ""}`}
-              style={{
-                transform: `translate(${pan.x}px,${pan.y}px) scale(${zoom})`,
-              }}
-            >
-              <NoteImage note={note} side={side} draggable="false" />
+        <div className="variant-workspace">
+          <nav className="variant-rail" aria-label="Banknote variants">
+            {variants.map((variant) => (
+              <button
+                key={variant.id}
+                className={`variant-thumbnail ${variant.id === note.id ? "selected" : ""}`}
+                aria-pressed={variant.id === note.id}
+                aria-label={`${variant.series} · ${variant.year} · ${variant.title}`}
+                title={`${variant.series} · ${variant.year}`}
+                onClick={() => onSelectVariant(variant)}
+              >
+                <NoteImage note={variant} />
+                <span>{variant.year}</span>
+              </button>
+            ))}
+          </nav>
+          <div className="view-workspace">
+            <div className="side-tabs">
+              <button
+                className={side === "front" ? "selected" : ""}
+                onClick={() => {
+                  setSide("front");
+                  changeZoom(1);
+                }}
+              >
+                Front
+              </button>
+              <button
+                className={side === "back" ? "selected" : ""}
+                onClick={() => {
+                  setSide("back");
+                  changeZoom(1);
+                }}
+              >
+                Back
+              </button>
             </div>
+            <div
+              className="zoom-stage"
+              onPointerDown={(e) => {
+                if (zoom > 1) {
+                  drag.current = { x: e.clientX - pan.x, y: e.clientY - pan.y };
+                  e.currentTarget.setPointerCapture(e.pointerId);
+                }
+              }}
+              onPointerMove={(e) => {
+                if (drag.current)
+                  setPan({
+                    x: e.clientX - drag.current.x,
+                    y: e.clientY - drag.current.y,
+                  });
+              }}
+              onPointerUp={() => (drag.current = null)}
+              onPointerCancel={() => (drag.current = null)}
+            >
+              <div
+                className={`zoom-image ${(side === "back" ? note.backOrientation || note.orientation : note.orientation) === "Vertical" ? "vertical" : ""}`}
+                style={{
+                  transform: `translate(${pan.x}px,${pan.y}px) scale(${zoom})`,
+                }}
+              >
+                <NoteImage note={note} side={side} draggable="false" />
+              </div>
+            </div>
+            <div className="zoom-tools">
+              <button
+                aria-label="Zoom out"
+                disabled={zoom === 1}
+                onClick={() => changeZoom(zoom - 0.5)}
+              >
+                <ZoomOut size={18} />
+              </button>
+              <span>{Math.round(zoom * 100)}%</span>
+              <button
+                aria-label="Zoom in"
+                disabled={zoom === 4}
+                onClick={() => changeZoom(zoom + 0.5)}
+              >
+                <ZoomIn size={18} />
+              </button>
+              <i />
+              <button aria-label="Reset zoom" onClick={() => changeZoom(1)}>
+                <Maximize size={18} />
+              </button>
+              <button
+                aria-label="Flip note"
+                onClick={() => setSide(side === "front" ? "back" : "front")}
+              >
+                <ArrowLeftRight size={18} />
+              </button>
+            </div>
+            <p className="zoom-hint">
+              {zoom > 1
+                ? "Drag the note to explore its details."
+                : "Zoom in to discover the finer details."}
+            </p>
           </div>
-          <div className="zoom-tools">
-            <button
-              aria-label="Zoom out"
-              disabled={zoom === 1}
-              onClick={() => changeZoom(zoom - 0.5)}
-            >
-              <ZoomOut size={18} />
-            </button>
-            <span>{Math.round(zoom * 100)}%</span>
-            <button
-              aria-label="Zoom in"
-              disabled={zoom === 4}
-              onClick={() => changeZoom(zoom + 0.5)}
-            >
-              <ZoomIn size={18} />
-            </button>
-            <i />
-            <button aria-label="Reset zoom" onClick={() => changeZoom(1)}>
-              <Maximize size={18} />
-            </button>
-            <button
-              aria-label="Flip note"
-              onClick={() => setSide(side === "front" ? "back" : "front")}
-            >
-              <ArrowLeftRight size={18} />
-            </button>
-          </div>
-          <p className="zoom-hint">
-            {zoom > 1
-              ? "Drag the note to explore its details."
-              : "Zoom in to discover the finer details."}
-          </p>
         </div>
         <aside className="note-details">
           <span className="currency-label">{note.currency} banknote</span>
@@ -240,11 +258,11 @@ function Viewer({ note, onClose, onNavigate }) {
       </div>
       <div className="viewer-bottom">
         <button onClick={() => onNavigate(-1)}>
-          <ChevronLeft size={17} /> Previous note
+          <ChevronLeft size={17} /> Previous value
         </button>
         <span>Educational collection</span>
         <button onClick={() => onNavigate(1)}>
-          Next note <ChevronRight size={17} />
+          Next value <ChevronRight size={17} />
         </button>
       </div>
     </Modal>
@@ -344,6 +362,7 @@ function App() {
   const country = countries.find((c) => c.id === f.country),
     collection = collectionFor(f.country, f.region),
     filtered = filterNotes(notes, f),
+    shelves = groupDenominations(filtered),
     available = notes.filter((n) => n.currency === collection.currency);
   const update = (k, v) => setF((p) => ({ ...p, [k]: v }));
   const selectCountry = (id) => {
@@ -596,7 +615,7 @@ function App() {
           </section>
           <div className="shelf-toolbar">
             <span aria-live="polite">
-              <strong>{filtered.length}</strong> banknotes{" "}
+              <strong>{shelves.length}</strong> denominations{" "}
               <span className="subtle">on the shelf</span>
               {active > 0 && (
                 <button
@@ -639,7 +658,7 @@ function App() {
             className="shelves"
             aria-label={`${country.name} banknote shelf`}
           >
-            {filtered.map((n) => (
+            {shelves.map(({ note: n, variants }) => (
               <article className="note-card" key={n.id}>
                 <button
                   className={`note-display ${(side === "back" ? n.backOrientation || n.orientation : n.orientation) === "Vertical" ? "vertical" : ""}`}
@@ -655,7 +674,15 @@ function App() {
                 <div className="note-caption">
                   <div>
                     <h3>{denomination(n)}</h3>
-                    <p>{side === "front" ? n.title : n.reverseTitle}</p>
+                    <p>
+                      {side === "front" ? n.title : n.reverseTitle}
+                      {variants.length > 1 && (
+                        <span className="variant-count">
+                          {" "}
+                          · {variants.length} variants
+                        </span>
+                      )}
+                    </p>
                   </div>
                   <span>
                     {circulationLabel(n)}
@@ -693,10 +720,24 @@ function App() {
       {selected && (
         <Viewer
           note={selected}
+          variants={
+            shelves.find(
+              (g) =>
+                g.note.currency === selected.currency &&
+                g.note.value === selected.value,
+            )?.variants || [selected]
+          }
+          onSelectVariant={setSelected}
           onClose={() => setSelected(null)}
           onNavigate={(d) => {
-            const i = filtered.findIndex((n) => n.id === selected.id);
-            setSelected(filtered[(i + d + filtered.length) % filtered.length]);
+            const i = shelves.findIndex(
+              ({ note }) =>
+                note.currency === selected.currency &&
+                note.value === selected.value,
+            );
+            setSelected(
+              shelves[(i + d + shelves.length) % shelves.length].note,
+            );
           }}
         />
       )}

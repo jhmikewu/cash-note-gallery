@@ -9,10 +9,39 @@ import {
   matchesCountry,
   euroMembers,
   overlapsPeriod,
+  groupDenominations,
 } from "../src/catalog.js";
 const notes = JSON.parse(
   readFileSync(new URL("../src/notes.json", import.meta.url)),
 );
+test("shelves group values with newest matching variant first", () => {
+  const groups = groupDenominations(
+    filterNotes(notes, { ...defaults, country: "GB" }),
+  );
+  assert.deepEqual(
+    groups.map((g) => g.note.value),
+    [5, 10, 20, 50],
+  );
+  assert.ok(groups.every((g) => g.note.title === "King Charles III"));
+  assert.equal(
+    groups.reduce((sum, g) => sum + g.variants.length, 0),
+    20,
+  );
+  const historic = groupDenominations(
+    filterNotes(notes, {
+      ...defaults,
+      country: "GB",
+      from: "2000",
+      to: "2000",
+    }),
+  );
+  assert.ok(historic.every((g) => g.note.year <= 2000));
+  const mixed = groupDenominations([
+    { id: "a", currency: "USD", value: 5, year: 2020 },
+    { id: "b", currency: "CAD", value: 5, year: 2021 },
+  ]);
+  assert.equal(mixed.length, 2);
+});
 test("circulation overlap includes cutoff day but excludes redemption-only periods", () => {
   assert.ok(
     overlapsPeriod(

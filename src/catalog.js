@@ -128,6 +128,23 @@ export function overlapsPeriod(note, from, to) {
 export function circulationLabel(note) {
   return `${note.year}–${note.circulationEnd ? note.circulationEnd.slice(0, 4) : "present"}`;
 }
+export function groupDenominations(notes) {
+  const groups = new Map();
+  for (const note of notes) {
+    const key = `${note.currency}-${note.value}`;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(note);
+  }
+  return [...groups.values()].map((variants) => {
+    variants.sort(
+      (a, b) =>
+        (b.circulationStart || String(b.year)).localeCompare(
+          a.circulationStart || String(a.year),
+        ) || a.id.localeCompare(b.id),
+    );
+    return { note: variants[0], variants };
+  });
+}
 export function collectionFor(country) {
   return countries.find((c) => c.id === resolveCountry(country));
 }

@@ -2,6 +2,8 @@
 
 # Cash Note
 
+Each shelf item groups one currency and denomination, showing its newest matching design. Open an item to browse its variants using the left thumbnail rail. Filters apply before grouping, so historical or material searches show only matching variants. Detail navigation moves between denominations; selecting a variant resets its zoom and displays that design’s dates and sources.
+
 A responsive banknote gallery with a wooden shelf presentation, country browsing, and an interactive front/back inspection view.
 
 ## Run locally
