@@ -17,7 +17,9 @@
     "orientation": "Horizontal",
     "description": "US currency uses 75% cotton and 25% linen. All earlier US currency designs remain legal tender.",
     "frontOriginal": "https://www.uscurrency.gov/sites/default/files/styles/unscaled/public/denominations/notes/1_1963-present-front.jpg.jpg?itok=_iJKanle",
-    "backOriginal": "https://www.uscurrency.gov/sites/default/files/styles/unscaled/public/denominations/notes/1-back-web_0.jpg.jpg?itok=eR_z265T"
+    "backOriginal": "https://www.uscurrency.gov/sites/default/files/styles/unscaled/public/denominations/notes/1-back-web_0.jpg.jpg?itok=eR_z265T",
+    "circulationStart": "1963",
+    "circulationEnd": null
   },
   {
     "id": "USD-2",
@@ -37,7 +39,9 @@
     "orientation": "Horizontal",
     "description": "US currency uses 75% cotton and 25% linen. All earlier US currency designs remain legal tender.",
     "frontOriginal": "https://www.uscurrency.gov/sites/default/files/styles/unscaled/public/denominations/notes/2-face-web_0.jpg.jpg?itok=6HjigAPm",
-    "backOriginal": "https://www.uscurrency.gov/sites/default/files/styles/unscaled/public/denominations/notes/2-back-web_0.jpg.jpg?itok=99x1ExEl"
+    "backOriginal": "https://www.uscurrency.gov/sites/default/files/styles/unscaled/public/denominations/notes/2-back-web_0.jpg.jpg?itok=99x1ExEl",
+    "circulationStart": "1976",
+    "circulationEnd": null
   },
   {
     "id": "USD-5",
@@ -57,7 +61,9 @@
     "orientation": "Horizontal",
     "description": "US currency uses 75% cotton and 25% linen. All earlier US currency designs remain legal tender.",
     "frontOriginal": "https://www.uscurrency.gov/sites/default/files/styles/unscaled/public/denominations/notes/5-face-web_0.jpg.jpg?itok=IdlzOlAF",
-    "backOriginal": "https://www.uscurrency.gov/sites/default/files/styles/unscaled/public/denominations/notes/5-back-web_0.jpg.jpg?itok=9DkPCoqt"
+    "backOriginal": "https://www.uscurrency.gov/sites/default/files/styles/unscaled/public/denominations/notes/5-back-web_0.jpg.jpg?itok=9DkPCoqt",
+    "circulationStart": "2008",
+    "circulationEnd": null
   },
   {
     "id": "USD-10",
@@ -77,7 +83,9 @@
     "orientation": "Horizontal",
     "description": "US currency uses 75% cotton and 25% linen. All earlier US currency designs remain legal tender.",
     "frontOriginal": "https://www.uscurrency.gov/sites/default/files/styles/unscaled/public/denominations/notes/10-face-web_0.jpg.jpg?itok=iGbhEExl",
-    "backOriginal": "https://www.uscurrency.gov/sites/default/files/styles/unscaled/public/denominations/notes/10-back-web_0.jpg.jpg?itok=BgKE-XFn"
+    "backOriginal": "https://www.uscurrency.gov/sites/default/files/styles/unscaled/public/denominations/notes/10-back-web_0.jpg.jpg?itok=BgKE-XFn",
+    "circulationStart": "2006",
+    "circulationEnd": null
   },
   {
     "id": "USD-20",
@@ -97,7 +105,9 @@
     "orientation": "Horizontal",
     "description": "US currency uses 75% cotton and 25% linen. All earlier US currency designs remain legal tender.",
     "frontOriginal": "https://www.uscurrency.gov/sites/default/files/styles/unscaled/public/denominations/notes/20-face-web_0.jpg.jpg?itok=pWM3XATm",
-    "backOriginal": "https://www.uscurrency.gov/sites/default/files/styles/unscaled/public/denominations/notes/20-back-web_0.jpg.jpg?itok=X3S9TOFo"
+    "backOriginal": "https://www.uscurrency.gov/sites/default/files/styles/unscaled/public/denominations/notes/20-back-web_0.jpg.jpg?itok=X3S9TOFo",
+    "circulationStart": "2003",
+    "circulationEnd": null
   },
   {
     "id": "USD-50",
@@ -117,7 +127,9 @@
     "orientation": "Horizontal",
     "description": "US currency uses 75% cotton and 25% linen. All earlier US currency designs remain legal tender.",
     "frontOriginal": "https://www.uscurrency.gov/sites/default/files/styles/unscaled/public/denominations/notes/50-face-web_0.jpg.jpg?itok=BJ9ohxQJ",
-    "backOriginal": "https://www.uscurrency.gov/sites/default/files/styles/unscaled/public/denominations/notes/50-back-web_0.jpg.jpg?itok=ldwF5-SF"
+    "backOriginal": "https://www.uscurrency.gov/sites/default/files/styles/unscaled/public/denominations/notes/50-back-web_0.jpg.jpg?itok=ldwF5-SF",
+    "circulationStart": "2004",
+    "circulationEnd": null
   },
   {
     "id": "USD-100",
@@ -137,7 +149,9 @@
     "orientation": "Horizontal",
     "description": "US currency uses 75% cotton and 25% linen. All earlier US currency designs remain legal tender.",
     "frontOriginal": "https://www.uscurrency.gov/sites/default/files/styles/unscaled/public/denominations/notes/100-face-web_0.jpg.jpg?itok=FOGrOPAN",
-    "backOriginal": "https://www.uscurrency.gov/sites/default/files/styles/unscaled/public/denominations/notes/100-back-web_0.jpg.jpg?itok=lABNcDKI"
+    "backOriginal": "https://www.uscurrency.gov/sites/default/files/styles/unscaled/public/denominations/notes/100-back-web_0.jpg.jpg?itok=lABNcDKI",
+    "circulationStart": "2013",
+    "circulationEnd": null
   },
   {
     "id": "EUR-5",
@@ -157,7 +171,9 @@
     "orientation": "Horizontal",
     "description": "Windows and gateways represent openness; bridges on the reverse represent communication across Europe.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/f/f5/EUR_5_obverse_%282013_issue%29.png",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/b/be/EUR_5_reverse_%282013_issue%29.png"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/b/be/EUR_5_reverse_%282013_issue%29.png",
+    "circulationStart": "2013",
+    "circulationEnd": null
   },
   {
     "id": "EUR-10",
@@ -177,7 +193,9 @@
     "orientation": "Horizontal",
     "description": "Windows and gateways represent openness; bridges on the reverse represent communication across Europe.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/a/a8/EUR_10_obverse_%282014_issue%29.png",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/a/a5/EUR_10_reverse_%282014_issue%29.png"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/a/a5/EUR_10_reverse_%282014_issue%29.png",
+    "circulationStart": "2014",
+    "circulationEnd": null
   },
   {
     "id": "EUR-20",
@@ -197,7 +215,9 @@
     "orientation": "Horizontal",
     "description": "Windows and gateways represent openness; bridges on the reverse represent communication across Europe.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/b/bb/The_Europa_series_20_%E2%82%AC_obverse_side.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/b/b2/The_Europa_series_20_%E2%82%AC_reverse_side.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/b/b2/The_Europa_series_20_%E2%82%AC_reverse_side.jpg",
+    "circulationStart": "2015",
+    "circulationEnd": null
   },
   {
     "id": "EUR-50",
@@ -217,7 +237,9 @@
     "orientation": "Horizontal",
     "description": "Windows and gateways represent openness; bridges on the reverse represent communication across Europe.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/2/2f/The_Europa_series_50_%E2%82%AC_obverse_side.png",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/f/f4/The_Europa_series_50_%E2%82%AC_reverse_side.png"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/f/f4/The_Europa_series_50_%E2%82%AC_reverse_side.png",
+    "circulationStart": "2017",
+    "circulationEnd": null
   },
   {
     "id": "EUR-100",
@@ -237,7 +259,9 @@
     "orientation": "Horizontal",
     "description": "Windows and gateways represent openness; bridges on the reverse represent communication across Europe.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/7/74/The_Europa_series_100_%E2%82%AC_obverse_side.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/6/6c/The_Europa_series_100_%E2%82%AC_reverse_side.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/6/6c/The_Europa_series_100_%E2%82%AC_reverse_side.jpg",
+    "circulationStart": "2019",
+    "circulationEnd": null
   },
   {
     "id": "EUR-200",
@@ -257,7 +281,9 @@
     "orientation": "Horizontal",
     "description": "Windows and gateways represent openness; bridges on the reverse represent communication across Europe.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/3/32/The_Europa_series_200_%E2%82%AC_obverse_side.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/e/e9/The_Europa_series_200_%E2%82%AC_reverse_side.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/e/e9/The_Europa_series_200_%E2%82%AC_reverse_side.jpg",
+    "circulationStart": "2019",
+    "circulationEnd": null
   },
   {
     "id": "EUR-500",
@@ -277,7 +303,9 @@
     "orientation": "Horizontal",
     "description": "The same euro banknotes circulate across the euro area. The €500 remains legal tender but has not been issued since 2019.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/a/ae/EUR_500_obverse_%282002_issue%29.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/8/8b/EUR_500_reverse_%282002_issue%29.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/8/8b/EUR_500_reverse_%282002_issue%29.jpg",
+    "circulationStart": "2002",
+    "circulationEnd": null
   },
   {
     "id": "JPY-1000",
@@ -297,7 +325,9 @@
     "orientation": "Horizontal",
     "description": "The 2024 series uses three-dimensional holographic portraits. The ¥2,000 design remains valid and is uncommon outside Okinawa.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Series_F_1%2C000_yen_note_front.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/4/48/Series_F_1%2C000_yen_note_reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/4/48/Series_F_1%2C000_yen_note_reverse.jpg",
+    "circulationStart": "2024",
+    "circulationEnd": null
   },
   {
     "id": "JPY-2000",
@@ -317,7 +347,9 @@
     "orientation": "Horizontal",
     "description": "The 2024 series uses three-dimensional holographic portraits. The ¥2,000 design remains valid and is uncommon outside Okinawa.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Series_D_2K_Yen_Bank_of_Japan_note_-_front.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/7/71/Series_D_2K_Yen_Bank_of_Japan_note_-_back.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/7/71/Series_D_2K_Yen_Bank_of_Japan_note_-_back.jpg",
+    "circulationStart": "2000",
+    "circulationEnd": null
   },
   {
     "id": "JPY-5000",
@@ -337,7 +369,9 @@
     "orientation": "Horizontal",
     "description": "The 2024 series uses three-dimensional holographic portraits. The ¥2,000 design remains valid and is uncommon outside Okinawa.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/2/23/Series_F_5000_yen_front.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Series_F_5%2C000_yen_reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Series_F_5%2C000_yen_reverse.jpg",
+    "circulationStart": "2024",
+    "circulationEnd": null
   },
   {
     "id": "JPY-10000",
@@ -357,7 +391,9 @@
     "orientation": "Horizontal",
     "description": "The 2024 series uses three-dimensional holographic portraits. The ¥2,000 design remains valid and is uncommon outside Okinawa.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Series_F_10000_yen_front.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Series_F_10000_yen_back.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Series_F_10000_yen_back.jpg",
+    "circulationStart": "2024",
+    "circulationEnd": null
   },
   {
     "id": "GBP-5",
@@ -377,7 +413,9 @@
     "orientation": "Horizontal",
     "description": "First issued on 5 June 2024. Queen Elizabeth II polymer notes also remain legal tender. This collection covers Bank of England issues.",
     "frontOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/king-charles/kc-5-pound.jpg",
-    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/king-charles/5back.jpg"
+    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/king-charles/5back.jpg",
+    "circulationStart": "2024",
+    "circulationEnd": null
   },
   {
     "id": "GBP-10",
@@ -397,7 +435,9 @@
     "orientation": "Horizontal",
     "description": "First issued on 5 June 2024. Queen Elizabeth II polymer notes also remain legal tender. This collection covers Bank of England issues.",
     "frontOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/king-charles/kc-10-pound.jpg",
-    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/king-charles/10back.jpg"
+    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/king-charles/10back.jpg",
+    "circulationStart": "2024",
+    "circulationEnd": null
   },
   {
     "id": "GBP-20",
@@ -417,7 +457,9 @@
     "orientation": "Horizontal",
     "description": "First issued on 5 June 2024. Queen Elizabeth II polymer notes also remain legal tender. This collection covers Bank of England issues.",
     "frontOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/king-charles/kc-20-pound.jpg",
-    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/king-charles/20back.jpg"
+    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/king-charles/20back.jpg",
+    "circulationStart": "2024",
+    "circulationEnd": null
   },
   {
     "id": "GBP-50",
@@ -437,7 +479,9 @@
     "orientation": "Horizontal",
     "description": "First issued on 5 June 2024. Queen Elizabeth II polymer notes also remain legal tender. This collection covers Bank of England issues.",
     "frontOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/king-charles/kc-50-pound.jpg",
-    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/king-charles/50back.jpg"
+    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/king-charles/50back.jpg",
+    "circulationStart": "2024",
+    "circulationEnd": null
   },
   {
     "id": "INR-10",
@@ -457,7 +501,9 @@
     "orientation": "Horizontal",
     "description": "The reverse celebrates India’s cultural and scientific heritage. The design incorporates a portrait watermark and security thread.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/7/7c/India_new_10_INR%2C_MG_series%2C_2018%2C_obverse.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/b/b5/India_new_10_INR%2C_MG_series%2C_2018%2C_reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/b/b5/India_new_10_INR%2C_MG_series%2C_2018%2C_reverse.jpg",
+    "circulationStart": "2018",
+    "circulationEnd": null
   },
   {
     "id": "INR-20",
@@ -477,7 +523,9 @@
     "orientation": "Horizontal",
     "description": "The reverse celebrates India’s cultural and scientific heritage. The design incorporates a portrait watermark and security thread.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/5/53/India_new_20_INR%2C_MG_series%2C_2019%2C_obverse.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/e/ea/India_new_20_INR%2C_MG_series%2C_2019%2C_reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/e/ea/India_new_20_INR%2C_MG_series%2C_2019%2C_reverse.jpg",
+    "circulationStart": "2019",
+    "circulationEnd": null
   },
   {
     "id": "INR-50",
@@ -497,7 +545,9 @@
     "orientation": "Horizontal",
     "description": "The reverse celebrates India’s cultural and scientific heritage. The design incorporates a portrait watermark and security thread.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/3/3f/India_new_50_INR%2C_MG_series%2C_2018%2C_obverse.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/6/62/India_new_50_INR%2C_MG_series%2C_2018%2C_reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/6/62/India_new_50_INR%2C_MG_series%2C_2018%2C_reverse.jpg",
+    "circulationStart": "2017",
+    "circulationEnd": null
   },
   {
     "id": "INR-100",
@@ -517,7 +567,9 @@
     "orientation": "Horizontal",
     "description": "The reverse celebrates India’s cultural and scientific heritage. The design incorporates a portrait watermark and security thread.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/8/88/India_new_100_INR%2C_Mahatma_Gandhi_New_Series%2C_2018%2C_obverse.png",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/d/d3/India_new_100_INR%2C_Mahatma_Gandhi_New_Series%2C_2018%2C_reverse.png"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/d/d3/India_new_100_INR%2C_Mahatma_Gandhi_New_Series%2C_2018%2C_reverse.png",
+    "circulationStart": "2018",
+    "circulationEnd": null
   },
   {
     "id": "INR-200",
@@ -537,7 +589,9 @@
     "orientation": "Horizontal",
     "description": "The reverse celebrates India’s cultural and scientific heritage. The design incorporates a portrait watermark and security thread.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/f/fa/India%2C_200_INR%2C_2018%2C_obverse.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/9/9e/India%2C_200_INR%2C_2018%2C_reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/9/9e/India%2C_200_INR%2C_2018%2C_reverse.jpg",
+    "circulationStart": "2017",
+    "circulationEnd": null
   },
   {
     "id": "INR-500",
@@ -557,7 +611,9 @@
     "orientation": "Horizontal",
     "description": "The reverse celebrates India’s cultural and scientific heritage. The design incorporates a portrait watermark and security thread.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/2/2e/India_new_500_INR%2C_MG_series%2C_2016%2C_obverse.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/a/a9/India_new_500_INR%2C_MG_series%2C_2016%2C_reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/a/a9/India_new_500_INR%2C_MG_series%2C_2016%2C_reverse.jpg",
+    "circulationStart": "2016",
+    "circulationEnd": null
   },
   {
     "id": "INR-2000",
@@ -577,7 +633,9 @@
     "orientation": "Horizontal",
     "description": "The ₹2,000 note was withdrawn from circulation in 2023 but continues to be legal tender; return and exchange arrangements apply.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/0/07/India_new_2000_INR%2C_MG_series%2C_2016%2C_obverse.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/a/ad/India_new_2000_INR%2C_MG_series%2C_2016%2C_reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/a/ad/India_new_2000_INR%2C_MG_series%2C_2016%2C_reverse.jpg",
+    "circulationStart": "2016",
+    "circulationEnd": null
   },
   {
     "id": "BRL-2",
@@ -597,7 +655,9 @@
     "orientation": "Horizontal",
     "description": "Brazil’s second family pairs the symbolic Republic with native wildlife. Denominations use different sizes to aid identification.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2_Brazil_real_Second_Obverse.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/e/e1/2_Brazil_real_Second_Reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/e/e1/2_Brazil_real_Second_Reverse.jpg",
+    "circulationStart": "2013",
+    "circulationEnd": null
   },
   {
     "id": "BRL-5",
@@ -617,7 +677,9 @@
     "orientation": "Horizontal",
     "description": "Brazil’s second family pairs the symbolic Republic with native wildlife. Denominations use different sizes to aid identification.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/8/80/5_Brazil_real_Second_Obverse.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/b/b6/5_Brazil_real_Second_Reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/b/b6/5_Brazil_real_Second_Reverse.jpg",
+    "circulationStart": "2013",
+    "circulationEnd": null
   },
   {
     "id": "BRL-10",
@@ -637,7 +699,9 @@
     "orientation": "Horizontal",
     "description": "Brazil’s second family pairs the symbolic Republic with native wildlife. Denominations use different sizes to aid identification.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/9/9a/10_Brazil_real_Second_Obverse.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/3/39/10_Brazil_real_Second_Reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/3/39/10_Brazil_real_Second_Reverse.jpg",
+    "circulationStart": "2012",
+    "circulationEnd": null
   },
   {
     "id": "BRL-20",
@@ -657,7 +721,9 @@
     "orientation": "Horizontal",
     "description": "Brazil’s second family pairs the symbolic Republic with native wildlife. Denominations use different sizes to aid identification.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/1/1e/20_Brazil_real_Second_Obverse.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/6/67/20_Brazil_real_Second_Reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/6/67/20_Brazil_real_Second_Reverse.jpg",
+    "circulationStart": "2012",
+    "circulationEnd": null
   },
   {
     "id": "BRL-50",
@@ -677,7 +743,9 @@
     "orientation": "Horizontal",
     "description": "Brazil’s second family pairs the symbolic Republic with native wildlife. Denominations use different sizes to aid identification.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/e/e5/50_Brazil_real_Second_Obverse.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/f/fb/50_Brazil_real_Second_Reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/f/fb/50_Brazil_real_Second_Reverse.jpg",
+    "circulationStart": "2010",
+    "circulationEnd": null
   },
   {
     "id": "BRL-100",
@@ -697,7 +765,9 @@
     "orientation": "Horizontal",
     "description": "Brazil’s second family pairs the symbolic Republic with native wildlife. Denominations use different sizes to aid identification.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/0/01/100_Brazil_real_Second_Obverse.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/3/39/100_Brazil_real_Second_Reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/3/39/100_Brazil_real_Second_Reverse.jpg",
+    "circulationStart": "2010",
+    "circulationEnd": null
   },
   {
     "id": "BRL-200",
@@ -717,7 +787,9 @@
     "orientation": "Horizontal",
     "description": "Brazil’s second family pairs the symbolic Republic with native wildlife. Denominations use different sizes to aid identification.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/6/64/200_Brazil_real_Second_Obverse.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/1/1d/200_Brazil_real_Second_Reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/1/1d/200_Brazil_real_Second_Reverse.jpg",
+    "circulationStart": "2020",
+    "circulationEnd": null
   },
   {
     "id": "KRW-1000",
@@ -737,7 +809,9 @@
     "orientation": "Horizontal",
     "description": "Korea’s notes celebrate scholars, artists, and scientific achievement. Their different lengths help distinguish the denominations.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/8/8c/1000_won_serieIII_obverse.jpeg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/c/c3/1000_won_serieIII_reverse.jpeg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/c/c3/1000_won_serieIII_reverse.jpeg",
+    "circulationStart": "2007",
+    "circulationEnd": null
   },
   {
     "id": "KRW-5000",
@@ -757,7 +831,9 @@
     "orientation": "Horizontal",
     "description": "Korea’s notes celebrate scholars, artists, and scientific achievement. Their different lengths help distinguish the denominations.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/b/bb/5000_won_serieV_obverse.jpeg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/d/d7/5000_won_serieV_reverse.jpeg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/d/d7/5000_won_serieV_reverse.jpeg",
+    "circulationStart": "2006",
+    "circulationEnd": null
   },
   {
     "id": "KRW-10000",
@@ -777,7 +853,9 @@
     "orientation": "Horizontal",
     "description": "Korea’s notes celebrate scholars, artists, and scientific achievement. Their different lengths help distinguish the denominations.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/3/30/10000_won_banknote.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/f/ff/10000_won_serieVI_reverse.jpeg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/f/ff/10000_won_serieVI_reverse.jpeg",
+    "circulationStart": "2007",
+    "circulationEnd": null
   },
   {
     "id": "KRW-50000",
@@ -797,7 +875,9 @@
     "orientation": "Horizontal",
     "description": "Korea’s notes celebrate scholars, artists, and scientific achievement. Their different lengths help distinguish the denominations.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/c/c1/50000_KRW_2009_ob.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/6/60/50000_KRW_2009_rev.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/6/60/50000_KRW_2009_rev.jpg",
+    "circulationStart": "2009",
+    "circulationEnd": null
   },
   {
     "id": "MXN-20",
@@ -817,7 +897,9 @@
     "orientation": "Horizontal",
     "description": "The front traces Mexican history; the reverse celebrates Mexico’s ecosystems and natural heritage.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/en/6/6c/Banco_de_M%C3%A9xico_G_%2420_obverse.png",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/en/a/a3/Banco_de_M%C3%A9xico_G_%2420_reverse.png"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/en/a/a3/Banco_de_M%C3%A9xico_G_%2420_reverse.png",
+    "circulationStart": "2021",
+    "circulationEnd": null
   },
   {
     "id": "MXN-50",
@@ -837,7 +919,9 @@
     "orientation": "Vertical",
     "description": "The front traces Mexican history; the reverse celebrates Mexico’s ecosystems and natural heritage.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/en/5/51/Banco_de_M%C3%A9xico_G_%2450_obverse.png",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/en/5/59/Banco_de_M%C3%A9xico_G_%2450_reverse.png"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/en/5/59/Banco_de_M%C3%A9xico_G_%2450_reverse.png",
+    "circulationStart": "2021",
+    "circulationEnd": null
   },
   {
     "id": "MXN-100",
@@ -857,7 +941,9 @@
     "orientation": "Vertical",
     "description": "The front traces Mexican history; the reverse celebrates Mexico’s ecosystems and natural heritage.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/en/1/12/Banco_de_M%C3%A9xico_G_%24100_obverse.png",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/en/8/8a/Banco_de_M%C3%A9xico_G_%24100_reverse.png"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/en/8/8a/Banco_de_M%C3%A9xico_G_%24100_reverse.png",
+    "circulationStart": "2020",
+    "circulationEnd": null
   },
   {
     "id": "MXN-200",
@@ -877,7 +963,9 @@
     "orientation": "Horizontal",
     "description": "The front traces Mexican history; the reverse celebrates Mexico’s ecosystems and natural heritage.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/en/8/8d/Banco_de_M%C3%A9xico_G_%24200_obverse.png",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/en/2/24/Banco_de_M%C3%A9xico_G_%24200_reverse.png"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/en/2/24/Banco_de_M%C3%A9xico_G_%24200_reverse.png",
+    "circulationStart": "2019",
+    "circulationEnd": null
   },
   {
     "id": "MXN-500",
@@ -897,7 +985,9 @@
     "orientation": "Horizontal",
     "description": "The front traces Mexican history; the reverse celebrates Mexico’s ecosystems and natural heritage.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/en/1/1d/Banco_de_M%C3%A9xico_G_%24500_obverse.png",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/en/d/d6/Banco_de_M%C3%A9xico_G_%24500_reverse.png"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/en/d/d6/Banco_de_M%C3%A9xico_G_%24500_reverse.png",
+    "circulationStart": "2018",
+    "circulationEnd": null
   },
   {
     "id": "MXN-1000",
@@ -917,7 +1007,9 @@
     "orientation": "Horizontal",
     "description": "The front traces Mexican history; the reverse celebrates Mexico’s ecosystems and natural heritage.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/en/7/76/Banco_de_M%C3%A9xico_G_%241000_obverse.png",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/en/3/35/Banco_de_M%C3%A9xico_G_%241000_reverse.png"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/en/3/35/Banco_de_M%C3%A9xico_G_%241000_reverse.png",
+    "circulationStart": "2020",
+    "circulationEnd": null
   },
   {
     "id": "CHF-10",
@@ -937,7 +1029,9 @@
     "orientation": "Vertical",
     "description": "Designed by Manuela Pfrunder, the ninth series explores facets of Switzerland through hands, globes, and landscapes. Durasafe combines cotton paper with a polymer core.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/0/07/CHF_10_9_front.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/7/72/CHF_10_9_back.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/7/72/CHF_10_9_back.jpg",
+    "circulationStart": "2017",
+    "circulationEnd": null
   },
   {
     "id": "CHF-20",
@@ -957,7 +1051,9 @@
     "orientation": "Vertical",
     "description": "Designed by Manuela Pfrunder, the ninth series explores facets of Switzerland through hands, globes, and landscapes. Durasafe combines cotton paper with a polymer core.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/a/a4/CHF_20_9_front.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/d/df/CHF_20_9_back.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/d/df/CHF_20_9_back.jpg",
+    "circulationStart": "2017",
+    "circulationEnd": null
   },
   {
     "id": "CHF-50",
@@ -977,7 +1073,9 @@
     "orientation": "Vertical",
     "description": "Designed by Manuela Pfrunder, the ninth series explores facets of Switzerland through hands, globes, and landscapes. Durasafe combines cotton paper with a polymer core.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/4/4e/CHF_50_9_front.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/b/bc/CHF_50_9_back.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/b/bc/CHF_50_9_back.jpg",
+    "circulationStart": "2016",
+    "circulationEnd": null
   },
   {
     "id": "CHF-100",
@@ -997,7 +1095,9 @@
     "orientation": "Vertical",
     "description": "Designed by Manuela Pfrunder, the ninth series explores facets of Switzerland through hands, globes, and landscapes. Durasafe combines cotton paper with a polymer core.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/2/22/CHF_100_9_front.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/1/14/CHF_100_9_back.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/1/14/CHF_100_9_back.jpg",
+    "circulationStart": "2019",
+    "circulationEnd": null
   },
   {
     "id": "CHF-200",
@@ -1017,7 +1117,9 @@
     "orientation": "Vertical",
     "description": "Designed by Manuela Pfrunder, the ninth series explores facets of Switzerland through hands, globes, and landscapes. Durasafe combines cotton paper with a polymer core.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/c/c0/CHF_200_9_front.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/e/e7/CHF_200_9_back.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/e/e7/CHF_200_9_back.jpg",
+    "circulationStart": "2018",
+    "circulationEnd": null
   },
   {
     "id": "CHF-1000",
@@ -1037,7 +1139,9 @@
     "orientation": "Vertical",
     "description": "Designed by Manuela Pfrunder, the ninth series explores facets of Switzerland through hands, globes, and landscapes. Durasafe combines cotton paper with a polymer core.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/a/ad/CHF_1000_9_front.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/a/a2/CHF_1000_9_back.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/a/a2/CHF_1000_9_back.jpg",
+    "circulationStart": "2019",
+    "circulationEnd": null
   },
   {
     "id": "AUD-5",
@@ -1057,7 +1161,9 @@
     "orientation": "Horizontal",
     "description": "A top-to-bottom clear window contains dynamic security features. Raised tactile bumps help people with vision impairment identify the value.",
     "frontOriginal": "https://banknotes.rba.gov.au/banknote-features/images/new-five/new-five-banknote.jpg",
-    "backOriginal": "https://banknotes.rba.gov.au/banknote-features/images/new-five/new-five-banknote-flipped.jpg"
+    "backOriginal": "https://banknotes.rba.gov.au/banknote-features/images/new-five/new-five-banknote-flipped.jpg",
+    "circulationStart": "2016",
+    "circulationEnd": null
   },
   {
     "id": "AUD-10",
@@ -1077,7 +1183,9 @@
     "orientation": "Horizontal",
     "description": "A top-to-bottom clear window contains dynamic security features. Raised tactile bumps help people with vision impairment identify the value.",
     "frontOriginal": "https://banknotes.rba.gov.au/banknote-features/images/new-ten/new-ten-banknote.jpg",
-    "backOriginal": "https://banknotes.rba.gov.au/banknote-features/images/new-ten/new-ten-banknote-flipped.jpg"
+    "backOriginal": "https://banknotes.rba.gov.au/banknote-features/images/new-ten/new-ten-banknote-flipped.jpg",
+    "circulationStart": "2017",
+    "circulationEnd": null
   },
   {
     "id": "AUD-20",
@@ -1097,7 +1205,9 @@
     "orientation": "Horizontal",
     "description": "A top-to-bottom clear window contains dynamic security features. Raised tactile bumps help people with vision impairment identify the value.",
     "frontOriginal": "https://banknotes.rba.gov.au/banknote-features/images/new-twenty/new-twenty-banknote.jpg",
-    "backOriginal": "https://banknotes.rba.gov.au/banknote-features/images/new-twenty/new-twenty-banknote-flipped.jpg"
+    "backOriginal": "https://banknotes.rba.gov.au/banknote-features/images/new-twenty/new-twenty-banknote-flipped.jpg",
+    "circulationStart": "2019",
+    "circulationEnd": null
   },
   {
     "id": "AUD-50",
@@ -1117,7 +1227,9 @@
     "orientation": "Horizontal",
     "description": "A top-to-bottom clear window contains dynamic security features. Raised tactile bumps help people with vision impairment identify the value.",
     "frontOriginal": "https://banknotes.rba.gov.au/banknote-features/images/new-fifty/new-fifty-banknote.jpg",
-    "backOriginal": "https://banknotes.rba.gov.au/banknote-features/images/new-fifty/new-fifty-banknote-flipped.jpg"
+    "backOriginal": "https://banknotes.rba.gov.au/banknote-features/images/new-fifty/new-fifty-banknote-flipped.jpg",
+    "circulationStart": "2018",
+    "circulationEnd": null
   },
   {
     "id": "AUD-100",
@@ -1137,7 +1249,9 @@
     "orientation": "Horizontal",
     "description": "A top-to-bottom clear window contains dynamic security features. Raised tactile bumps help people with vision impairment identify the value.",
     "frontOriginal": "https://banknotes.rba.gov.au/banknote-features/images/new-hundred/new-hundred-banknote.jpg",
-    "backOriginal": "https://banknotes.rba.gov.au/banknote-features/images/new-hundred/new-hundred-banknote-flipped.jpg"
+    "backOriginal": "https://banknotes.rba.gov.au/banknote-features/images/new-hundred/new-hundred-banknote-flipped.jpg",
+    "circulationStart": "2020",
+    "circulationEnd": null
   },
   {
     "id": "CNY-1",
@@ -1157,7 +1271,9 @@
     "orientation": "Horizontal",
     "description": "The fifth series pairs a portrait of Mao Zedong with landscapes and landmarks across China.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/zh/3/38/1-2019o.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/zh/1/1b/1-2019r.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/zh/1/1b/1-2019r.jpg",
+    "circulationStart": "2019",
+    "circulationEnd": null
   },
   {
     "id": "CNY-5",
@@ -1177,7 +1293,9 @@
     "orientation": "Horizontal",
     "description": "The fifth series pairs a portrait of Mao Zedong with landscapes and landmarks across China.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/zh/9/90/5-2020o.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/zh/3/36/5-2020r.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/zh/3/36/5-2020r.jpg",
+    "circulationStart": "2020",
+    "circulationEnd": null
   },
   {
     "id": "CNY-10",
@@ -1197,7 +1315,9 @@
     "orientation": "Horizontal",
     "description": "The fifth series pairs a portrait of Mao Zedong with landscapes and landmarks across China.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/zh/3/34/10-2019o.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/zh/e/e1/10-2019r.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/zh/e/e1/10-2019r.jpg",
+    "circulationStart": "2019",
+    "circulationEnd": null
   },
   {
     "id": "CNY-20",
@@ -1217,7 +1337,9 @@
     "orientation": "Horizontal",
     "description": "The fifth series pairs a portrait of Mao Zedong with landscapes and landmarks across China.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/zh/f/fc/20-2019o.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/zh/c/c8/20-2019r.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/zh/c/c8/20-2019r.jpg",
+    "circulationStart": "2019",
+    "circulationEnd": null
   },
   {
     "id": "CNY-50",
@@ -1237,7 +1359,9 @@
     "orientation": "Horizontal",
     "description": "The fifth series pairs a portrait of Mao Zedong with landscapes and landmarks across China.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/zh/7/7e/50-2019o.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/zh/5/5a/50-2019r.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/zh/5/5a/50-2019r.jpg",
+    "circulationStart": "2019",
+    "circulationEnd": null
   },
   {
     "id": "CNY-100",
@@ -1257,7 +1381,9 @@
     "orientation": "Horizontal",
     "description": "The fifth series pairs a portrait of Mao Zedong with landscapes and landmarks across China.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/zh/5/51/100-2015-b.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/zh/c/cc/100-2015-a.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/zh/c/cc/100-2015-a.jpg",
+    "circulationStart": "2015",
+    "circulationEnd": null
   },
   {
     "id": "TRY-5",
@@ -1277,7 +1403,9 @@
     "orientation": "Horizontal",
     "description": "The E9 series celebrates Turkish contributors to science, architecture, literature and music. The purple 5-lira design was introduced in 2013.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/e/e2/5-II_T%C3%BCrk_Liras%C4%B1_front.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/c/c9/5-II_T%C3%BCrk_Liras%C4%B1_reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/c/c9/5-II_T%C3%BCrk_Liras%C4%B1_reverse.jpg",
+    "circulationStart": "2013",
+    "circulationEnd": null
   },
   {
     "id": "TRY-10",
@@ -1297,7 +1425,9 @@
     "orientation": "Horizontal",
     "description": "The E9 series celebrates Turkish contributors to science, architecture, literature and music. The purple 5-lira design was introduced in 2013.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/1/14/10_T%C3%BCrk_Liras%C4%B1_front.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/3/3a/10_T%C3%BCrk_Liras%C4%B1_reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/3/3a/10_T%C3%BCrk_Liras%C4%B1_reverse.jpg",
+    "circulationStart": "2009",
+    "circulationEnd": null
   },
   {
     "id": "TRY-20",
@@ -1317,7 +1447,9 @@
     "orientation": "Horizontal",
     "description": "The E9 series celebrates Turkish contributors to science, architecture, literature and music. The purple 5-lira design was introduced in 2013.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/4/4b/20_T%C3%BCrk_Liras%C4%B1_front.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/e/eb/20_T%C3%BCrk_Liras%C4%B1_reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/e/eb/20_T%C3%BCrk_Liras%C4%B1_reverse.jpg",
+    "circulationStart": "2009",
+    "circulationEnd": null
   },
   {
     "id": "TRY-50",
@@ -1337,7 +1469,9 @@
     "orientation": "Horizontal",
     "description": "The E9 series celebrates Turkish contributors to science, architecture, literature and music. The purple 5-lira design was introduced in 2013.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/2/22/50_T%C3%BCrk_Liras%C4%B1_front.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/5/55/50_T%C3%BCrk_Liras%C4%B1_reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/5/55/50_T%C3%BCrk_Liras%C4%B1_reverse.jpg",
+    "circulationStart": "2009",
+    "circulationEnd": null
   },
   {
     "id": "TRY-100",
@@ -1357,7 +1491,9 @@
     "orientation": "Horizontal",
     "description": "The E9 series celebrates Turkish contributors to science, architecture, literature and music. The purple 5-lira design was introduced in 2013.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/5/58/100_T%C3%BCrk_Liras%C4%B1_front.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/3/3f/100_T%C3%BCrk_Liras%C4%B1_reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/3/3f/100_T%C3%BCrk_Liras%C4%B1_reverse.jpg",
+    "circulationStart": "2009",
+    "circulationEnd": null
   },
   {
     "id": "TRY-200",
@@ -1377,7 +1513,9 @@
     "orientation": "Horizontal",
     "description": "The E9 series celebrates Turkish contributors to science, architecture, literature and music. The purple 5-lira design was introduced in 2013.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/d/df/200_T%C3%BCrk_Liras%C4%B1_front.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/4/4f/200_T%C3%BCrk_Liras%C4%B1_reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/4/4f/200_T%C3%BCrk_Liras%C4%B1_reverse.jpg",
+    "circulationStart": "2009",
+    "circulationEnd": null
   },
   {
     "id": "CAD-5",
@@ -1397,7 +1535,9 @@
     "orientation": "Horizontal",
     "description": "Canadian polymer notes include a transparent window with metallic imagery. The vertical $10 honours civil-rights pioneer Viola Desmond.",
     "frontOriginal": "https://www.bankofcanada.ca/wp-content/uploads/2015/09/5_front.png",
-    "backOriginal": "https://www.bankofcanada.ca/wp-content/uploads/2015/09/5_back.png"
+    "backOriginal": "https://www.bankofcanada.ca/wp-content/uploads/2015/09/5_back.png",
+    "circulationStart": "2013",
+    "circulationEnd": null
   },
   {
     "id": "CAD-10",
@@ -1417,7 +1557,9 @@
     "orientation": "Vertical",
     "description": "Canadian polymer notes include a transparent window with metallic imagery. The vertical $10 honours civil-rights pioneer Viola Desmond.",
     "frontOriginal": "https://www.bankofcanada.ca/wp-content/uploads/2018/01/196440.png",
-    "backOriginal": "https://www.bankofcanada.ca/wp-content/uploads/2018/01/196441.png"
+    "backOriginal": "https://www.bankofcanada.ca/wp-content/uploads/2018/01/196441.png",
+    "circulationStart": "2018",
+    "circulationEnd": null
   },
   {
     "id": "CAD-20",
@@ -1437,7 +1579,9 @@
     "orientation": "Horizontal",
     "description": "Canadian polymer notes include a transparent window with metallic imagery. The vertical $10 honours civil-rights pioneer Viola Desmond.",
     "frontOriginal": "https://www.bankofcanada.ca/wp-content/uploads/2015/09/20_front.png",
-    "backOriginal": "https://www.bankofcanada.ca/wp-content/uploads/2015/09/20_back.png"
+    "backOriginal": "https://www.bankofcanada.ca/wp-content/uploads/2015/09/20_back.png",
+    "circulationStart": "2012",
+    "circulationEnd": null
   },
   {
     "id": "CAD-50",
@@ -1457,7 +1601,9 @@
     "orientation": "Horizontal",
     "description": "Canadian polymer notes include a transparent window with metallic imagery. The vertical $10 honours civil-rights pioneer Viola Desmond.",
     "frontOriginal": "https://www.bankofcanada.ca/wp-content/uploads/2015/09/50_front.png",
-    "backOriginal": "https://www.bankofcanada.ca/wp-content/uploads/2015/09/50_back.png"
+    "backOriginal": "https://www.bankofcanada.ca/wp-content/uploads/2015/09/50_back.png",
+    "circulationStart": "2012",
+    "circulationEnd": null
   },
   {
     "id": "CAD-100",
@@ -1477,7 +1623,9 @@
     "orientation": "Horizontal",
     "description": "Canadian polymer notes include a transparent window with metallic imagery. The vertical $10 honours civil-rights pioneer Viola Desmond.",
     "frontOriginal": "https://www.bankofcanada.ca/wp-content/uploads/2015/09/100_front.png",
-    "backOriginal": "https://www.bankofcanada.ca/wp-content/uploads/2015/09/100_back.png"
+    "backOriginal": "https://www.bankofcanada.ca/wp-content/uploads/2015/09/100_back.png",
+    "circulationStart": "2011",
+    "circulationEnd": null
   },
   {
     "id": "IDR-1000",
@@ -1497,7 +1645,9 @@
     "orientation": "Horizontal",
     "description": "The 2022 series celebrates national heroes, traditional dances and Indonesian landscapes, with stronger colour contrast and improved security.",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/INO/INOW0162o.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/INO/INOW0162r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/INO/INOW0162r.jpg",
+    "circulationStart": "2022",
+    "circulationEnd": null
   },
   {
     "id": "IDR-2000",
@@ -1517,7 +1667,9 @@
     "orientation": "Horizontal",
     "description": "The 2022 series celebrates national heroes, traditional dances and Indonesian landscapes, with stronger colour contrast and improved security.",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/INO/INOW0163o.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/INO/INOW0163r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/INO/INOW0163r.jpg",
+    "circulationStart": "2022",
+    "circulationEnd": null
   },
   {
     "id": "IDR-5000",
@@ -1537,7 +1689,9 @@
     "orientation": "Horizontal",
     "description": "The 2022 series celebrates national heroes, traditional dances and Indonesian landscapes, with stronger colour contrast and improved security.",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/INO/INOW0164o.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/INO/INOW0164r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/INO/INOW0164r.jpg",
+    "circulationStart": "2022",
+    "circulationEnd": null
   },
   {
     "id": "IDR-10000",
@@ -1557,7 +1711,9 @@
     "orientation": "Horizontal",
     "description": "The 2022 series celebrates national heroes, traditional dances and Indonesian landscapes, with stronger colour contrast and improved security.",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/INO/INOW0165o.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/INO/INOW0165r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/INO/INOW0165r.jpg",
+    "circulationStart": "2022",
+    "circulationEnd": null
   },
   {
     "id": "IDR-20000",
@@ -1577,7 +1733,9 @@
     "orientation": "Horizontal",
     "description": "The 2022 series celebrates national heroes, traditional dances and Indonesian landscapes, with stronger colour contrast and improved security.",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/INO/INOW0166o.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/INO/INOW0166r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/INO/INOW0166r.jpg",
+    "circulationStart": "2022",
+    "circulationEnd": null
   },
   {
     "id": "IDR-50000",
@@ -1597,7 +1755,9 @@
     "orientation": "Horizontal",
     "description": "The 2022 series celebrates national heroes, traditional dances and Indonesian landscapes, with stronger colour contrast and improved security.",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/INO/INOW0167o.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/INO/INOW0167r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/INO/INOW0167r.jpg",
+    "circulationStart": "2022",
+    "circulationEnd": null
   },
   {
     "id": "IDR-100000",
@@ -1617,7 +1777,9 @@
     "orientation": "Horizontal",
     "description": "The 2022 series celebrates national heroes, traditional dances and Indonesian landscapes, with stronger colour contrast and improved security.",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/INO/INOW0168o.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/INO/INOW0168r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/INO/INOW0168r.jpg",
+    "circulationStart": "2022",
+    "circulationEnd": null
   },
   {
     "id": "RUB-5",
@@ -1637,7 +1799,9 @@
     "orientation": "Horizontal",
     "description": "Bank of Russia notes celebrate the architecture, monuments and landscapes of cities and regions.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Banknote_5_rubles_%281997%29_front.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Banknote_5_rubles_%281997%29_back.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Banknote_5_rubles_%281997%29_back.jpg",
+    "circulationStart": "1998",
+    "circulationEnd": null
   },
   {
     "id": "RUB-10",
@@ -1657,7 +1821,9 @@
     "orientation": "Horizontal",
     "description": "Bank of Russia notes celebrate the architecture, monuments and landscapes of cities and regions.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/9/91/%D0%91%D0%B0%D0%BD%D0%BA%D0%BD%D0%BE%D1%82%D0%B0_10_%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9_%28%D0%BE%D0%B1%D1%80._1997_%D0%B3.%3B_%D0%B0%D0%B2%D0%B5%D1%80%D1%81%29.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/d/d6/%D0%91%D0%B0%D0%BD%D0%BA%D0%BD%D0%BE%D1%82%D0%B0_10_%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9_%28%D0%BE%D0%B1%D1%80._1997_%D0%B3.%3B_%D1%80%D0%B5%D0%B2%D0%B5%D1%80%D1%81%29.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/d/d6/%D0%91%D0%B0%D0%BD%D0%BA%D0%BD%D0%BE%D1%82%D0%B0_10_%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9_%28%D0%BE%D0%B1%D1%80._1997_%D0%B3.%3B_%D1%80%D0%B5%D0%B2%D0%B5%D1%80%D1%81%29.jpg",
+    "circulationStart": "1998",
+    "circulationEnd": null
   },
   {
     "id": "RUB-50",
@@ -1677,7 +1843,9 @@
     "orientation": "Horizontal",
     "description": "Bank of Russia notes celebrate the architecture, monuments and landscapes of cities and regions.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/a/aa/%D0%91%D0%B0%D0%BD%D0%BA%D0%BD%D0%BE%D1%82%D0%B0_50_%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9_%28%D0%BE%D0%B1%D1%80._1997_%D0%B3.%3B_%D0%BC%D0%BE%D0%B4%D0%B8%D1%84._2001_%D0%B3.%3B_%D0%B0%D0%B2%D0%B5%D1%80%D1%81%29.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/4/4f/%D0%91%D0%B0%D0%BD%D0%BA%D0%BD%D0%BE%D1%82%D0%B0_50_%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9_%28%D0%BE%D0%B1%D1%80._1997_%D0%B3.%3B_%D0%BC%D0%BE%D0%B4%D0%B8%D1%84._2001_%D0%B3.%3B_%D1%80%D0%B5%D0%B2%D0%B5%D1%80%D1%81%29.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/4/4f/%D0%91%D0%B0%D0%BD%D0%BA%D0%BD%D0%BE%D1%82%D0%B0_50_%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9_%28%D0%BE%D0%B1%D1%80._1997_%D0%B3.%3B_%D0%BC%D0%BE%D0%B4%D0%B8%D1%84._2001_%D0%B3.%3B_%D1%80%D0%B5%D0%B2%D0%B5%D1%80%D1%81%29.jpg",
+    "circulationStart": "2001",
+    "circulationEnd": null
   },
   {
     "id": "RUB-100",
@@ -1697,7 +1865,9 @@
     "orientation": "Horizontal",
     "description": "Bank of Russia notes celebrate the architecture, monuments and landscapes of cities and regions.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/3/3f/100_rubles_obverse_2022.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/4/49/100_rubles_reverse_2022.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/4/49/100_rubles_reverse_2022.jpg",
+    "circulationStart": "2022",
+    "circulationEnd": null
   },
   {
     "id": "RUB-200",
@@ -1717,7 +1887,9 @@
     "orientation": "Horizontal",
     "description": "Bank of Russia notes depict cities and regions. The 200-ruble imagery depicts locations in Crimea, internationally recognised as part of Ukraine.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/2/2b/200_rubles_2017_obverse.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/9/94/200_rubles_2017_reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/9/94/200_rubles_2017_reverse.jpg",
+    "circulationStart": "2017",
+    "circulationEnd": null
   },
   {
     "id": "RUB-500",
@@ -1737,7 +1909,9 @@
     "orientation": "Horizontal",
     "description": "Bank of Russia notes celebrate the architecture, monuments and landscapes of cities and regions.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/8/8e/%D0%91%D0%B0%D0%BD%D0%BA%D0%BD%D0%BE%D1%82%D0%B0_500_%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9_%28%D0%BE%D0%B1%D1%80._1997_%D0%B3.%3B_%D0%BC%D0%BE%D0%B4%D0%B8%D1%84._2001_%D0%B3.%3B_%D0%B0%D0%B2%D0%B5%D1%80%D1%81%29.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/d/d2/%D0%91%D0%B0%D0%BD%D0%BA%D0%BD%D0%BE%D1%82%D0%B0_500_%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9_%28%D0%BE%D0%B1%D1%80._1997_%D0%B3.%3B_%D0%BC%D0%BE%D0%B4%D0%B8%D1%84._2001_%D0%B3.%3B_%D1%80%D0%B5%D0%B2%D0%B5%D1%80%D1%81%29.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/d/d2/%D0%91%D0%B0%D0%BD%D0%BA%D0%BD%D0%BE%D1%82%D0%B0_500_%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9_%28%D0%BE%D0%B1%D1%80._1997_%D0%B3.%3B_%D0%BC%D0%BE%D0%B4%D0%B8%D1%84._2001_%D0%B3.%3B_%D1%80%D0%B5%D0%B2%D0%B5%D1%80%D1%81%29.jpg",
+    "circulationStart": "2001",
+    "circulationEnd": null
   },
   {
     "id": "RUB-1000",
@@ -1757,7 +1931,9 @@
     "orientation": "Horizontal",
     "description": "Bank of Russia notes celebrate the architecture, monuments and landscapes of cities and regions.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/0/07/1000_rubles_obverse_2023.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/6/62/1000_rubles_reverse_2025.png"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/6/62/1000_rubles_reverse_2025.png",
+    "circulationStart": "2025",
+    "circulationEnd": null
   },
   {
     "id": "RUB-2000",
@@ -1777,7 +1953,9 @@
     "orientation": "Horizontal",
     "description": "Bank of Russia notes celebrate the architecture, monuments and landscapes of cities and regions.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/a/a0/2000_rubles_2017_obverse.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/5/5d/2000_rubles_2017_reverse.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/5/5d/2000_rubles_2017_reverse.jpg",
+    "circulationStart": "2017",
+    "circulationEnd": null
   },
   {
     "id": "RUB-5000",
@@ -1797,7 +1975,9 @@
     "orientation": "Horizontal",
     "description": "Bank of Russia notes celebrate the architecture, monuments and landscapes of cities and regions.",
     "frontOriginal": "https://upload.wikimedia.org/wikipedia/commons/8/89/5000_rubles_obverse_2023.jpg",
-    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/f/fd/5000_rubles_reverse_2023.jpg"
+    "backOriginal": "https://upload.wikimedia.org/wikipedia/commons/f/fd/5000_rubles_reverse_2023.jpg",
+    "circulationStart": "2023",
+    "circulationEnd": null
   },
   {
     "id": "SAR-5",
@@ -1817,7 +1997,9 @@
     "orientation": "Horizontal",
     "description": "The sixth series depicts Saudi kings and significant landmarks. The 20- and 200-riyal notes are commemorative issues.",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/SAR/SARW2020-005o.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/SAR/SARW2020-005r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/SAR/SARW2020-005r.jpg",
+    "circulationStart": "2020",
+    "circulationEnd": null
   },
   {
     "id": "SAR-10",
@@ -1837,7 +2019,9 @@
     "orientation": "Horizontal",
     "description": "The sixth series depicts Saudi kings and significant landmarks. The 20- and 200-riyal notes are commemorative issues.",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/SAR/SAR0039o.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/SAR/SAR0039r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/SAR/SAR0039r.jpg",
+    "circulationStart": "2016",
+    "circulationEnd": null
   },
   {
     "id": "SAR-20",
@@ -1857,7 +2041,9 @@
     "orientation": "Horizontal",
     "description": "The sixth series depicts Saudi kings and significant landmarks. The 20- and 200-riyal notes are commemorative issues.",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/SAR/SARW2020-020-commo.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/SAR/SARW2020-020-commr.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/SAR/SARW2020-020-commr.jpg",
+    "circulationStart": "2020",
+    "circulationEnd": null
   },
   {
     "id": "SAR-50",
@@ -1877,7 +2063,9 @@
     "orientation": "Horizontal",
     "description": "The sixth series depicts Saudi kings and significant landmarks. The 20- and 200-riyal notes are commemorative issues.",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/SAR/SAR0040o.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/SAR/SAR0040r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/SAR/SAR0040r.jpg",
+    "circulationStart": "2016",
+    "circulationEnd": null
   },
   {
     "id": "SAR-100",
@@ -1897,7 +2085,9 @@
     "orientation": "Horizontal",
     "description": "The sixth series depicts Saudi kings and significant landmarks. The 20- and 200-riyal notes are commemorative issues.",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/SAR/SAR0041o.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/SAR/SAR0041r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/SAR/SAR0041r.jpg",
+    "circulationStart": "2016",
+    "circulationEnd": null
   },
   {
     "id": "SAR-200",
@@ -1917,7 +2107,9 @@
     "orientation": "Horizontal",
     "description": "The sixth series depicts Saudi kings and significant landmarks. The 20- and 200-riyal notes are commemorative issues.",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/SAR/SARW2021-200o.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/SAR/SARW2021-200r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/SAR/SARW2021-200r.jpg",
+    "circulationStart": "2021",
+    "circulationEnd": null
   },
   {
     "id": "SAR-500",
@@ -1937,7 +2129,9 @@
     "orientation": "Horizontal",
     "description": "The sixth series depicts Saudi kings and significant landmarks. The 20- and 200-riyal notes are commemorative issues.",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/SAR/SAR0042o.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/SAR/SAR0042r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/SAR/SAR0042r.jpg",
+    "circulationStart": "2016",
+    "circulationEnd": null
   },
   {
     "id": "PLN-10",
@@ -1957,7 +2151,9 @@
     "front": "./notes/PLN-10-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/EUR/POL/POL0183o.jpg",
     "back": "./notes/PLN-10-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/POL/POL0183r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/POL/POL0183r.jpg",
+    "circulationStart": "2014",
+    "circulationEnd": null
   },
   {
     "id": "PLN-20",
@@ -1977,7 +2173,9 @@
     "front": "./notes/PLN-20-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/EUR/POL/POL0184o.jpg",
     "back": "./notes/PLN-20-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/POL/POL0184r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/POL/POL0184r.jpg",
+    "circulationStart": "2014",
+    "circulationEnd": null
   },
   {
     "id": "PLN-50",
@@ -1997,7 +2195,9 @@
     "front": "./notes/PLN-50-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/EUR/POL/POL0185o.jpg",
     "back": "./notes/PLN-50-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/POL/POL0185r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/POL/POL0185r.jpg",
+    "circulationStart": "2014",
+    "circulationEnd": null
   },
   {
     "id": "PLN-100",
@@ -2017,7 +2217,9 @@
     "front": "./notes/PLN-100-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/EUR/POL/POL0186o.jpg",
     "back": "./notes/PLN-100-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/POL/POL0186r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/POL/POL0186r.jpg",
+    "circulationStart": "2014",
+    "circulationEnd": null
   },
   {
     "id": "PLN-200",
@@ -2037,7 +2239,9 @@
     "front": "./notes/PLN-200-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/EUR/POL/POL0189o.jpg",
     "back": "./notes/PLN-200-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/POL/POL0189r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/POL/POL0189r.jpg",
+    "circulationStart": "2016",
+    "circulationEnd": null
   },
   {
     "id": "PLN-500",
@@ -2057,7 +2261,9 @@
     "front": "./notes/PLN-500-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/EUR/POL/POL0190o.jpg",
     "back": "./notes/PLN-500-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/POL/POL0190r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/POL/POL0190r.jpg",
+    "circulationStart": "2017",
+    "circulationEnd": null
   },
   {
     "id": "ARS-10",
@@ -2077,7 +2283,9 @@
     "front": "./notes/ARS-10-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARG0360o.jpg",
     "back": "./notes/ARS-10-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARG0360r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARG0360r.jpg",
+    "circulationStart": "2016",
+    "circulationEnd": null
   },
   {
     "id": "ARS-20",
@@ -2097,7 +2305,9 @@
     "front": "./notes/ARS-20-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARG0361o.jpg",
     "back": "./notes/ARS-20-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARG0361r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARG0361r.jpg",
+    "circulationStart": "2017",
+    "circulationEnd": null
   },
   {
     "id": "ARS-50",
@@ -2117,7 +2327,9 @@
     "front": "./notes/ARS-50-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARG0363o.jpg",
     "back": "./notes/ARS-50-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARG0363r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARG0363r.jpg",
+    "circulationStart": "2018",
+    "circulationEnd": null
   },
   {
     "id": "ARS-100",
@@ -2137,7 +2349,9 @@
     "front": "./notes/ARS-100-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARGW2018-0100o.jpg",
     "back": "./notes/ARS-100-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARGW2018-0100r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARGW2018-0100r.jpg",
+    "circulationStart": "2018",
+    "circulationEnd": null
   },
   {
     "id": "ARS-200",
@@ -2157,7 +2371,9 @@
     "front": "./notes/ARS-200-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARG0364o.jpg",
     "back": "./notes/ARS-200-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARG0364r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARG0364r.jpg",
+    "circulationStart": "2016",
+    "circulationEnd": null
   },
   {
     "id": "ARS-500",
@@ -2177,7 +2393,9 @@
     "front": "./notes/ARS-500-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARG0365o.jpg",
     "back": "./notes/ARS-500-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARG0365r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARG0365r.jpg",
+    "circulationStart": "2016",
+    "circulationEnd": null
   },
   {
     "id": "ARS-1000",
@@ -2197,7 +2415,9 @@
     "front": "./notes/ARS-1000-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARGW0367o.jpg",
     "back": "./notes/ARS-1000-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARGW0367r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARGW0367r.jpg",
+    "circulationStart": "2023",
+    "circulationEnd": null
   },
   {
     "id": "ARS-2000",
@@ -2217,7 +2437,9 @@
     "front": "./notes/ARS-2000-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARGW0368o.jpg",
     "back": "./notes/ARS-2000-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARGW0368r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARGW0368r.jpg",
+    "circulationStart": "2023",
+    "circulationEnd": null
   },
   {
     "id": "ARS-10000",
@@ -2237,7 +2459,9 @@
     "front": "./notes/ARS-10000-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARGW0369o.jpg",
     "back": "./notes/ARS-10000-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARGW0369r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARGW0369r.jpg",
+    "circulationStart": "2024",
+    "circulationEnd": null
   },
   {
     "id": "ARS-20000",
@@ -2257,7 +2481,9 @@
     "front": "./notes/ARS-20000-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARGW0370o.jpg",
     "back": "./notes/ARS-20000-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARGW0370r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/AME/ARG/ARG-GENERAL/ARGW0370r.jpg",
+    "circulationStart": "2024",
+    "circulationEnd": null
   },
   {
     "id": "ILS-20",
@@ -2277,7 +2503,9 @@
     "front": "./notes/ILS-20-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/ISR/ISR0065o.jpg",
     "back": "./notes/ILS-20-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/ISR/ISR0065r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/ISR/ISR0065r.jpg",
+    "circulationStart": "2017",
+    "circulationEnd": null
   },
   {
     "id": "ILS-50",
@@ -2297,7 +2525,9 @@
     "front": "./notes/ILS-50-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/ISR/ISR0066-2013o.jpg",
     "back": "./notes/ILS-50-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/ISR/ISR0066-2013r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/ISR/ISR0066-2013r.jpg",
+    "circulationStart": "2014",
+    "circulationEnd": null
   },
   {
     "id": "ILS-100",
@@ -2317,7 +2547,9 @@
     "front": "./notes/ILS-100-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/ISR/ISR0067o.jpg",
     "back": "./notes/ILS-100-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/ISR/ISR0067r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/ISR/ISR0067r.jpg",
+    "circulationStart": "2017",
+    "circulationEnd": null
   },
   {
     "id": "ILS-200",
@@ -2337,7 +2569,9 @@
     "front": "./notes/ILS-200-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/ISR/ISR0068o.jpg",
     "back": "./notes/ILS-200-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/ISR/ISR0068r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/ISR/ISR0068r.jpg",
+    "circulationStart": "2015",
+    "circulationEnd": null
   },
   {
     "id": "SEK-20",
@@ -2357,7 +2591,9 @@
     "front": "./notes/SEK-20-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/EUR/SWE/SWE0069o.jpg",
     "back": "./notes/SEK-20-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/SWE/SWE0069r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/SWE/SWE0069r.jpg",
+    "circulationStart": "2015",
+    "circulationEnd": null
   },
   {
     "id": "SEK-50",
@@ -2377,7 +2613,9 @@
     "front": "./notes/SEK-50-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/EUR/SWE/SWE0070o.jpg",
     "back": "./notes/SEK-50-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/SWE/SWE0070r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/SWE/SWE0070r.jpg",
+    "circulationStart": "2015",
+    "circulationEnd": null
   },
   {
     "id": "SEK-100",
@@ -2397,7 +2635,9 @@
     "front": "./notes/SEK-100-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/EUR/SWE/SWE0071-1o.jpg",
     "back": "./notes/SEK-100-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/SWE/SWE0071-1r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/SWE/SWE0071-1r.jpg",
+    "circulationStart": "2016",
+    "circulationEnd": null
   },
   {
     "id": "SEK-200",
@@ -2417,7 +2657,9 @@
     "front": "./notes/SEK-200-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/EUR/SWE/SWE0072o.jpg",
     "back": "./notes/SEK-200-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/SWE/SWE0072r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/SWE/SWE0072r.jpg",
+    "circulationStart": "2015",
+    "circulationEnd": null
   },
   {
     "id": "SEK-500",
@@ -2437,7 +2679,9 @@
     "front": "./notes/SEK-500-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/EUR/SWE/SWE0073o.jpg",
     "back": "./notes/SEK-500-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/SWE/SWE0073r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/SWE/SWE0073r.jpg",
+    "circulationStart": "2016",
+    "circulationEnd": null
   },
   {
     "id": "SEK-1000",
@@ -2457,7 +2701,9 @@
     "front": "./notes/SEK-1000-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/EUR/SWE/SWE0074o.jpg",
     "back": "./notes/SEK-1000-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/SWE/SWE0074r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/EUR/SWE/SWE0074r.jpg",
+    "circulationStart": "2015",
+    "circulationEnd": null
   },
   {
     "id": "HKD-10",
@@ -2477,7 +2723,9 @@
     "front": "./notes/HKD-10-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/HKG/HKG0401ao.jpg",
     "back": "./notes/HKD-10-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/HKG/HKG0401ar.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/HKG/HKG0401ar.jpg",
+    "circulationStart": "2007",
+    "circulationEnd": null
   },
   {
     "id": "HKD-20",
@@ -2498,7 +2746,9 @@
     "front": "./notes/HKD-20-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/HKG/HKGW2018-0020-BOCo.jpg",
     "back": "./notes/HKD-20-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/HKG/HKGW2018-0020-BOCr.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/HKG/HKGW2018-0020-BOCr.jpg",
+    "circulationStart": "2020",
+    "circulationEnd": null
   },
   {
     "id": "HKD-50",
@@ -2519,7 +2769,9 @@
     "front": "./notes/HKD-50-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/HKG/HKGW2018-0050-BOCo.jpg",
     "back": "./notes/HKD-50-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/HKG/HKGW2018-0050-BOCr.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/HKG/HKGW2018-0050-BOCr.jpg",
+    "circulationStart": "2020",
+    "circulationEnd": null
   },
   {
     "id": "HKD-100",
@@ -2540,7 +2792,9 @@
     "front": "./notes/HKD-100-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/HKG/HKGW2018-0100-BOCo.jpg",
     "back": "./notes/HKD-100-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/HKG/HKGW2018-0100-BOCr.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/HKG/HKGW2018-0100-BOCr.jpg",
+    "circulationStart": "2019",
+    "circulationEnd": null
   },
   {
     "id": "HKD-500",
@@ -2561,7 +2815,9 @@
     "front": "./notes/HKD-500-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/HKG/HKGW2018-0500-BOCo.jpg",
     "back": "./notes/HKD-500-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/HKG/HKGW2018-0500-BOCr.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/HKG/HKGW2018-0500-BOCr.jpg",
+    "circulationStart": "2019",
+    "circulationEnd": null
   },
   {
     "id": "HKD-1000",
@@ -2582,7 +2838,9 @@
     "front": "./notes/HKD-1000-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/HKG/HKGW2018-1000-BOCo.jpg",
     "back": "./notes/HKD-1000-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/HKG/HKGW2018-1000-BOCr.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/HKG/HKGW2018-1000-BOCr.jpg",
+    "circulationStart": "2018",
+    "circulationEnd": null
   },
   {
     "id": "MOP-10",
@@ -2602,7 +2860,9 @@
     "front": "./notes/MOP-10-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/MAC/MACW0129o.jpg",
     "back": "./notes/MOP-10-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/MAC/MACW0129r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/MAC/MACW0129r.jpg",
+    "circulationStart": "2024",
+    "circulationEnd": null
   },
   {
     "id": "MOP-20",
@@ -2622,7 +2882,9 @@
     "front": "./notes/MOP-20-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/MAC/MACW0130o.jpg",
     "back": "./notes/MOP-20-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/MAC/MACW0130r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/MAC/MACW0130r.jpg",
+    "circulationStart": "2024",
+    "circulationEnd": null
   },
   {
     "id": "MOP-50",
@@ -2642,7 +2904,9 @@
     "front": "./notes/MOP-50-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/MAC/MACW0131o.jpg",
     "back": "./notes/MOP-50-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/MAC/MACW0131r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/MAC/MACW0131r.jpg",
+    "circulationStart": "2025",
+    "circulationEnd": null
   },
   {
     "id": "MOP-100",
@@ -2662,7 +2926,9 @@
     "front": "./notes/MOP-100-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/MAC/MACW0132o.jpg",
     "back": "./notes/MOP-100-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/MAC/MACW0132r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/MAC/MACW0132r.jpg",
+    "circulationStart": "2025",
+    "circulationEnd": null
   },
   {
     "id": "MOP-500",
@@ -2682,7 +2948,9 @@
     "front": "./notes/MOP-500-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/MAC/MACW0133o.jpg",
     "back": "./notes/MOP-500-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/MAC/MACW0133r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/MAC/MACW0133r.jpg",
+    "circulationStart": "2026",
+    "circulationEnd": null
   },
   {
     "id": "MOP-1000",
@@ -2702,6 +2970,1110 @@
     "front": "./notes/MOP-1000-front.jpg",
     "frontOriginal": "http://banknote.ws/COLLECTION/countries/ASI/MAC/MACW0134o.jpg",
     "back": "./notes/MOP-1000-back.jpg",
-    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/MAC/MACW0134r.jpg"
+    "backOriginal": "http://banknote.ws/COLLECTION/countries/ASI/MAC/MACW0134r.jpg",
+    "circulationStart": "2026",
+    "circulationEnd": null
+  },
+  {
+    "id": "GBP-5-2016",
+    "currency": "GBP",
+    "value": 5,
+    "year": 2016,
+    "title": "Queen Elizabeth II",
+    "reverseTitle": "Winston Churchill",
+    "dimensions": "125 × 65",
+    "material": "Polymer",
+    "series": "Queen Elizabeth II — polymer",
+    "front": "./notes/GBP-5-2016-front.jpg",
+    "back": "./notes/GBP-5-2016-back.jpg",
+    "source": "https://www.bankofengland.co.uk/banknotes/current-banknotes",
+    "imageSource": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/5/5-front-specimen.jpeg",
+    "status": "Issued",
+    "orientation": "Horizontal",
+    "description": "Queen Elizabeth II polymer notes remain legal tender alongside King Charles III notes.",
+    "frontOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/5/5-front-specimen.jpeg",
+    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/5/5-back-specimen.jpeg",
+    "circulationStart": "2016-09-13",
+    "circulationEnd": null,
+    "reproductionSource": "https://www.bankofengland.co.uk/banknotes/using-images-of-banknotes",
+    "imageTreatment": "Issuer-supplied SPECIMEN marking retained"
+  },
+  {
+    "id": "GBP-10-2017",
+    "currency": "GBP",
+    "value": 10,
+    "year": 2017,
+    "title": "Queen Elizabeth II",
+    "reverseTitle": "Jane Austen",
+    "dimensions": "132 × 69",
+    "material": "Polymer",
+    "series": "Queen Elizabeth II — polymer",
+    "front": "./notes/GBP-10-2017-front.jpg",
+    "back": "./notes/GBP-10-2017-back.jpg",
+    "source": "https://www.bankofengland.co.uk/banknotes/current-banknotes",
+    "imageSource": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/10/10-front.jpg",
+    "status": "Issued",
+    "orientation": "Horizontal",
+    "description": "Queen Elizabeth II polymer notes remain legal tender alongside King Charles III notes.",
+    "frontOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/10/10-front.jpg",
+    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/10/polymer-10-back-specimen.jpg",
+    "circulationStart": "2017-09-14",
+    "circulationEnd": null,
+    "reproductionSource": "https://www.bankofengland.co.uk/banknotes/using-images-of-banknotes",
+    "imageTreatment": "Issuer-supplied SPECIMEN marking retained"
+  },
+  {
+    "id": "GBP-20-2020",
+    "currency": "GBP",
+    "value": 20,
+    "year": 2020,
+    "title": "Queen Elizabeth II",
+    "reverseTitle": "J. M. W. Turner",
+    "dimensions": "139 × 73",
+    "material": "Polymer",
+    "series": "Queen Elizabeth II — polymer",
+    "front": "./notes/GBP-20-2020-front.jpg",
+    "back": "./notes/GBP-20-2020-back.jpg",
+    "source": "https://www.bankofengland.co.uk/banknotes/current-banknotes",
+    "imageSource": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/20/polymer/polymer-20-specimen-front-(1).jpg",
+    "status": "Issued",
+    "orientation": "Horizontal",
+    "description": "Queen Elizabeth II polymer notes remain legal tender alongside King Charles III notes.",
+    "frontOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/20/polymer/polymer-20-specimen-front-(1).jpg",
+    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/20/polymer/polymer-20-specimen-back.jpg",
+    "circulationStart": "2020-02-20",
+    "circulationEnd": null,
+    "reproductionSource": "https://www.bankofengland.co.uk/banknotes/using-images-of-banknotes",
+    "imageTreatment": "Issuer-supplied SPECIMEN marking retained"
+  },
+  {
+    "id": "GBP-50-2021",
+    "currency": "GBP",
+    "value": 50,
+    "year": 2021,
+    "title": "Queen Elizabeth II",
+    "reverseTitle": "Alan Turing",
+    "dimensions": "146 × 77",
+    "material": "Polymer",
+    "series": "Queen Elizabeth II — polymer",
+    "front": "./notes/GBP-50-2021-front.jpg",
+    "back": "./notes/GBP-50-2021-back.jpg",
+    "source": "https://www.bankofengland.co.uk/banknotes/current-banknotes",
+    "imageSource": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/50/polymer/polymer-50-specimen-front.jpg",
+    "status": "Issued",
+    "orientation": "Horizontal",
+    "description": "Queen Elizabeth II polymer notes remain legal tender alongside King Charles III notes.",
+    "frontOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/50/polymer/polymer-50-specimen-front.jpg",
+    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/50/polymer/polymer-50-specimen-back.jpg",
+    "circulationStart": "2021-06-23",
+    "circulationEnd": null,
+    "reproductionSource": "https://www.bankofengland.co.uk/banknotes/using-images-of-banknotes",
+    "imageTreatment": "Issuer-supplied SPECIMEN marking retained"
+  },
+  {
+    "id": "GBP-5-1990",
+    "currency": "GBP",
+    "value": 5,
+    "year": 1990,
+    "title": "Queen Elizabeth II",
+    "reverseTitle": "George Stephenson",
+    "dimensions": "135 × 70",
+    "material": "Cotton paper",
+    "series": "Series E",
+    "front": "./notes/GBP-5-1990-front.jpg",
+    "back": "./notes/GBP-5-1990-back.jpg",
+    "source": "https://www.bankofengland.co.uk/banknotes/withdrawn-banknotes",
+    "imageSource": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/5e-1990-1990041.jpg",
+    "status": "Withdrawn",
+    "orientation": "Horizontal",
+    "description": "Withdrawn from circulation; the Bank of England still exchanges this note.",
+    "frontOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/5e-1990-1990041.jpg",
+    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/5e-1990-1990041.jpg",
+    "circulationStart": "1990-06-07",
+    "circulationEnd": "2003-11-21",
+    "reproductionSource": "https://www.bankofengland.co.uk/banknotes/using-images-of-banknotes",
+    "imageTreatment": "Issuer-supplied SPECIMEN marking retained"
+  },
+  {
+    "id": "GBP-5-1993",
+    "currency": "GBP",
+    "value": 5,
+    "year": 1993,
+    "title": "Queen Elizabeth II",
+    "reverseTitle": "George Stephenson",
+    "dimensions": "135 × 70",
+    "material": "Cotton paper",
+    "series": "Series E — revised",
+    "front": "./notes/GBP-5-1993-front.jpg",
+    "back": "./notes/GBP-5-1993-back.jpg",
+    "source": "https://www.bankofengland.co.uk/banknotes/withdrawn-banknotes",
+    "imageSource": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/5e-revised-1999006.jpg",
+    "status": "Withdrawn",
+    "orientation": "Horizontal",
+    "description": "Withdrawn from circulation; the Bank of England still exchanges this note.",
+    "frontOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/5e-revised-1999006.jpg",
+    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/5e-revised-1999006.jpg",
+    "circulationStart": "1993-03-01",
+    "circulationEnd": "2003-11-21",
+    "reproductionSource": "https://www.bankofengland.co.uk/banknotes/using-images-of-banknotes",
+    "imageTreatment": "Issuer-supplied SPECIMEN marking retained"
+  },
+  {
+    "id": "GBP-10-1992",
+    "currency": "GBP",
+    "value": 10,
+    "year": 1992,
+    "title": "Queen Elizabeth II",
+    "reverseTitle": "Charles Dickens",
+    "dimensions": "142 × 75",
+    "material": "Cotton paper",
+    "series": "Series E",
+    "front": "./notes/GBP-10-1992-front.jpg",
+    "back": "./notes/GBP-10-1992-back.jpg",
+    "source": "https://www.bankofengland.co.uk/banknotes/withdrawn-banknotes",
+    "imageSource": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/10e-1992123.jpg",
+    "status": "Withdrawn",
+    "orientation": "Horizontal",
+    "description": "Withdrawn from circulation; the Bank of England still exchanges this note.",
+    "frontOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/10e-1992123.jpg",
+    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/10e-1992123.jpg",
+    "circulationStart": "1992-04-29",
+    "circulationEnd": "2003-07-31",
+    "reproductionSource": "https://www.bankofengland.co.uk/banknotes/using-images-of-banknotes",
+    "imageTreatment": "Issuer-supplied SPECIMEN marking retained"
+  },
+  {
+    "id": "GBP-10-1993",
+    "currency": "GBP",
+    "value": 10,
+    "year": 1993,
+    "title": "Queen Elizabeth II",
+    "reverseTitle": "Charles Dickens",
+    "dimensions": "142 × 75",
+    "material": "Cotton paper",
+    "series": "Series E — revised",
+    "front": "./notes/GBP-10-1993-front.jpg",
+    "back": "./notes/GBP-10-1993-back.jpg",
+    "source": "https://www.bankofengland.co.uk/banknotes/withdrawn-banknotes",
+    "imageSource": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/10e-revised-1999003.jpg",
+    "status": "Withdrawn",
+    "orientation": "Horizontal",
+    "description": "Withdrawn from circulation; the Bank of England still exchanges this note.",
+    "frontOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/10e-revised-1999003.jpg",
+    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/10e-revised-1999003.jpg",
+    "circulationStart": "1993-11-22",
+    "circulationEnd": "2003-07-31",
+    "reproductionSource": "https://www.bankofengland.co.uk/banknotes/using-images-of-banknotes",
+    "imageTreatment": "Issuer-supplied SPECIMEN marking retained"
+  },
+  {
+    "id": "GBP-20-1991",
+    "currency": "GBP",
+    "value": 20,
+    "year": 1991,
+    "title": "Queen Elizabeth II",
+    "reverseTitle": "Michael Faraday",
+    "dimensions": "149 × 80",
+    "material": "Cotton paper",
+    "series": "Series E",
+    "front": "./notes/GBP-20-1991-front.jpg",
+    "back": "./notes/GBP-20-1991-back.jpg",
+    "source": "https://www.bankofengland.co.uk/banknotes/withdrawn-banknotes",
+    "imageSource": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/20e-1991-1991108.jpg",
+    "status": "Withdrawn",
+    "orientation": "Horizontal",
+    "description": "Withdrawn from circulation; the Bank of England still exchanges this note.",
+    "frontOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/20e-1991-1991108.jpg",
+    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/20e-1991-1991108.jpg",
+    "circulationStart": "1991-06-05",
+    "circulationEnd": "2001-02-28",
+    "reproductionSource": "https://www.bankofengland.co.uk/banknotes/using-images-of-banknotes",
+    "imageTreatment": "Issuer-supplied SPECIMEN marking retained"
+  },
+  {
+    "id": "GBP-20-1993",
+    "currency": "GBP",
+    "value": 20,
+    "year": 1993,
+    "title": "Queen Elizabeth II",
+    "reverseTitle": "Michael Faraday",
+    "dimensions": "149 × 80",
+    "material": "Cotton paper",
+    "series": "Series E — revised",
+    "front": "./notes/GBP-20-1993-front.jpg",
+    "back": "./notes/GBP-20-1993-back.jpg",
+    "source": "https://www.bankofengland.co.uk/banknotes/withdrawn-banknotes",
+    "imageSource": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/20e-revised-1999008.jpg",
+    "status": "Withdrawn",
+    "orientation": "Horizontal",
+    "description": "Withdrawn from circulation; the Bank of England still exchanges this note.",
+    "frontOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/20e-revised-1999008.jpg",
+    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/20e-revised-1999008.jpg",
+    "circulationStart": "1993-09-27",
+    "circulationEnd": "2001-02-28",
+    "reproductionSource": "https://www.bankofengland.co.uk/banknotes/using-images-of-banknotes",
+    "imageTreatment": "Issuer-supplied SPECIMEN marking retained"
+  },
+  {
+    "id": "GBP-50-1994",
+    "currency": "GBP",
+    "value": 50,
+    "year": 1994,
+    "title": "Queen Elizabeth II",
+    "reverseTitle": "Sir John Houblon",
+    "dimensions": "156 × 85",
+    "material": "Cotton paper",
+    "series": "Series E",
+    "front": "./notes/GBP-50-1994-front.jpg",
+    "back": "./notes/GBP-50-1994-back.jpg",
+    "source": "https://www.bankofengland.co.uk/banknotes/withdrawn-banknotes",
+    "imageSource": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/50e-1994-1994086.jpg",
+    "status": "Withdrawn",
+    "orientation": "Horizontal",
+    "description": "Withdrawn from circulation; the Bank of England still exchanges this note.",
+    "frontOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/50e-1994-1994086.jpg",
+    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/50e-1994-1994086.jpg",
+    "circulationStart": "1994-04-20",
+    "circulationEnd": "2014-04-30",
+    "reproductionSource": "https://www.bankofengland.co.uk/banknotes/using-images-of-banknotes",
+    "imageTreatment": "Issuer-supplied SPECIMEN marking retained"
+  },
+  {
+    "id": "GBP-20-1999",
+    "currency": "GBP",
+    "value": 20,
+    "year": 1999,
+    "title": "Queen Elizabeth II",
+    "reverseTitle": "Edward Elgar",
+    "dimensions": "149 × 80",
+    "material": "Cotton paper",
+    "series": "Series E — variant",
+    "front": "./notes/GBP-20-1999-front.jpg",
+    "back": "./notes/GBP-20-1999-back.jpg",
+    "source": "https://www.bankofengland.co.uk/banknotes/withdrawn-banknotes",
+    "imageSource": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/20e-var-1999-1999085.jpg",
+    "status": "Withdrawn",
+    "orientation": "Horizontal",
+    "description": "Withdrawn from circulation; the Bank of England still exchanges this note.",
+    "frontOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/20e-var-1999-1999085.jpg",
+    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/20e-var-1999-1999085.jpg",
+    "circulationStart": "1999-06-22",
+    "circulationEnd": "2010-06-30",
+    "reproductionSource": "https://www.bankofengland.co.uk/banknotes/using-images-of-banknotes",
+    "imageTreatment": "Issuer-supplied SPECIMEN marking retained"
+  },
+  {
+    "id": "GBP-10-2000",
+    "currency": "GBP",
+    "value": 10,
+    "year": 2000,
+    "title": "Queen Elizabeth II",
+    "reverseTitle": "Charles Darwin",
+    "dimensions": "142 × 75",
+    "material": "Cotton paper",
+    "series": "Series E — variant",
+    "front": "./notes/GBP-10-2000-front.jpg",
+    "back": "./notes/GBP-10-2000-back.jpg",
+    "source": "https://www.bankofengland.co.uk/banknotes/withdrawn-banknotes",
+    "imageSource": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/10seriesv.jpg",
+    "status": "Withdrawn",
+    "orientation": "Horizontal",
+    "description": "Withdrawn from circulation; the Bank of England still exchanges this note.",
+    "frontOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/10seriesv.jpg",
+    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/10seriesv.jpg",
+    "circulationStart": "2000-11-07",
+    "circulationEnd": "2018-03-01",
+    "reproductionSource": "https://www.bankofengland.co.uk/banknotes/using-images-of-banknotes",
+    "imageTreatment": "Issuer-supplied SPECIMEN marking retained"
+  },
+  {
+    "id": "GBP-5-2002",
+    "currency": "GBP",
+    "value": 5,
+    "year": 2002,
+    "title": "Queen Elizabeth II",
+    "reverseTitle": "Elizabeth Fry",
+    "dimensions": "135 × 70",
+    "material": "Cotton paper",
+    "series": "Series E — variant",
+    "front": "./notes/GBP-5-2002-front.jpg",
+    "back": "./notes/GBP-5-2002-back.jpg",
+    "source": "https://www.bankofengland.co.uk/banknotes/withdrawn-banknotes",
+    "imageSource": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/5e-var-2002-2002022.jpg",
+    "status": "Withdrawn",
+    "orientation": "Horizontal",
+    "description": "Withdrawn from circulation; the Bank of England still exchanges this note.",
+    "frontOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/5e-var-2002-2002022.jpg",
+    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/5e-var-2002-2002022.jpg",
+    "circulationStart": "2002-05-21",
+    "circulationEnd": "2017-05-05",
+    "reproductionSource": "https://www.bankofengland.co.uk/banknotes/using-images-of-banknotes",
+    "imageTreatment": "Issuer-supplied SPECIMEN marking retained"
+  },
+  {
+    "id": "GBP-20-2007",
+    "currency": "GBP",
+    "value": 20,
+    "year": 2007,
+    "title": "Queen Elizabeth II",
+    "reverseTitle": "Adam Smith",
+    "dimensions": "149 × 80",
+    "material": "Cotton paper",
+    "series": "Series F",
+    "front": "./notes/GBP-20-2007-front.jpg",
+    "back": "./notes/GBP-20-2007-back.jpg",
+    "source": "https://www.bankofengland.co.uk/banknotes/withdrawn-banknotes",
+    "imageSource": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/20-series-f.jpg",
+    "status": "Withdrawn",
+    "orientation": "Horizontal",
+    "description": "Withdrawn from circulation; the Bank of England still exchanges this note.",
+    "frontOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/20-series-f.jpg",
+    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/20-series-f.jpg",
+    "circulationStart": "2007-03-13",
+    "circulationEnd": "2022-09-30",
+    "reproductionSource": "https://www.bankofengland.co.uk/banknotes/using-images-of-banknotes",
+    "imageTreatment": "Issuer-supplied SPECIMEN marking retained"
+  },
+  {
+    "id": "GBP-50-2011",
+    "currency": "GBP",
+    "value": 50,
+    "year": 2011,
+    "title": "Queen Elizabeth II",
+    "reverseTitle": "Matthew Boulton and James Watt",
+    "dimensions": "156 × 85",
+    "material": "Cotton paper",
+    "series": "Series F",
+    "front": "./notes/GBP-50-2011-front.jpg",
+    "back": "./notes/GBP-50-2011-back.jpg",
+    "source": "https://www.bankofengland.co.uk/banknotes/withdrawn-banknotes",
+    "imageSource": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/50-series-f.png",
+    "status": "Withdrawn",
+    "orientation": "Horizontal",
+    "description": "Withdrawn from circulation; the Bank of England still exchanges this note.",
+    "frontOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/50-series-f.png",
+    "backOriginal": "https://www.bankofengland.co.uk/-/media/boe/images/banknotes/withdrawn/50-series-f.png",
+    "circulationStart": "2011-11-02",
+    "circulationEnd": "2022-09-30",
+    "reproductionSource": "https://www.bankofengland.co.uk/banknotes/using-images-of-banknotes",
+    "imageTreatment": "Issuer-supplied SPECIMEN marking retained"
+  },
+  {
+    "id": "JPY-1000-1984",
+    "currency": "JPY",
+    "value": 1000,
+    "year": 1984,
+    "title": "Natsume Sōseki",
+    "reverseTitle": "Pair of cranes",
+    "dimensions": "150 × 76",
+    "material": "Plant-fibre paper",
+    "series": "Series D",
+    "front": "./notes/JPY-1000-1984-front.jpg",
+    "back": "./notes/JPY-1000-1984-back.jpg",
+    "source": "https://www.boj.or.jp/en/note_tfjgs/note/valid/issue.htm",
+    "imageSource": "https://en.wikipedia.org/wiki/File:Series_D_1K_Yen_Bank_of_Japan_note_-_front.jpg",
+    "status": "Not issued",
+    "orientation": "Horizontal",
+    "description": "Series D. Earlier design; stopping issuance does not remove legal-tender status.",
+    "frontOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Series_D_1K_Yen_Bank_of_Japan_note_-_front.jpg/120px-Series_D_1K_Yen_Bank_of_Japan_note_-_front.jpg",
+    "backOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Series_D_1K_Yen_Bank_of_Japan_note_-_back.jpg/120px-Series_D_1K_Yen_Bank_of_Japan_note_-_back.jpg",
+    "circulationStart": "1984-11-01",
+    "circulationEnd": null
+  },
+  {
+    "id": "JPY-5000-1984",
+    "currency": "JPY",
+    "value": 5000,
+    "year": 1984,
+    "title": "Nitobe Inazō",
+    "reverseTitle": "Mount Fuji and Lake Motosu",
+    "dimensions": "155 × 76",
+    "material": "Plant-fibre paper",
+    "series": "Series D",
+    "front": "./notes/JPY-5000-1984-front.jpg",
+    "back": "./notes/JPY-5000-1984-back.jpg",
+    "source": "https://www.boj.or.jp/en/note_tfjgs/note/valid/issue.htm",
+    "imageSource": "https://en.wikipedia.org/wiki/File:Series_D_5K_Yen_bank_of_japan_note_-_front.jpg",
+    "status": "Not issued",
+    "orientation": "Horizontal",
+    "description": "Series D. Earlier design; stopping issuance does not remove legal-tender status.",
+    "frontOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Series_D_5K_Yen_bank_of_japan_note_-_front.jpg/120px-Series_D_5K_Yen_bank_of_japan_note_-_front.jpg",
+    "backOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Series_D_5K_Yen_bank_of_japan_note_-_back.jpg/120px-Series_D_5K_Yen_bank_of_japan_note_-_back.jpg",
+    "circulationStart": "1984-11-01",
+    "circulationEnd": null
+  },
+  {
+    "id": "JPY-10000-1984",
+    "currency": "JPY",
+    "value": 10000,
+    "year": 1984,
+    "title": "Fukuzawa Yukichi",
+    "reverseTitle": "Pair of pheasants",
+    "dimensions": "160 × 76",
+    "material": "Plant-fibre paper",
+    "series": "Series D",
+    "front": "./notes/JPY-10000-1984-front.jpg",
+    "back": "./notes/JPY-10000-1984-back.jpg",
+    "source": "https://www.boj.or.jp/en/note_tfjgs/note/valid/issue.htm",
+    "imageSource": "https://en.wikipedia.org/wiki/File:Series_D_10K_Yen_Bank_of_Japan_note_-_front.jpg",
+    "status": "Not issued",
+    "orientation": "Horizontal",
+    "description": "Series D. Earlier design; stopping issuance does not remove legal-tender status.",
+    "frontOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Series_D_10K_Yen_Bank_of_Japan_note_-_front.jpg/120px-Series_D_10K_Yen_Bank_of_Japan_note_-_front.jpg",
+    "backOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Series_D_10K_Yen_Bank_of_Japan_note_-_back.jpg/120px-Series_D_10K_Yen_Bank_of_Japan_note_-_back.jpg",
+    "circulationStart": "1984-11-01",
+    "circulationEnd": null
+  },
+  {
+    "id": "JPY-1000-2004",
+    "currency": "JPY",
+    "value": 1000,
+    "year": 2004,
+    "title": "Noguchi Hideyo",
+    "reverseTitle": "Mount Fuji and cherry blossoms",
+    "dimensions": "150 × 76",
+    "material": "Plant-fibre paper",
+    "series": "Series E",
+    "front": "./notes/JPY-1000-2004-front.jpg",
+    "back": "./notes/JPY-1000-2004-back.jpg",
+    "source": "https://www.boj.or.jp/en/note_tfjgs/note/valid/issue.htm",
+    "imageSource": "https://en.wikipedia.org/wiki/File:Series_E_1K_Yen_bank_of_Japan_note_-_front.jpg",
+    "status": "Not issued",
+    "orientation": "Horizontal",
+    "description": "Series E. Earlier design; stopping issuance does not remove legal-tender status.",
+    "frontOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Series_E_1K_Yen_bank_of_Japan_note_-_front.jpg/120px-Series_E_1K_Yen_bank_of_Japan_note_-_front.jpg",
+    "backOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Series_E_1K_Yen_bank_of_Japan_note_-_back.jpg/120px-Series_E_1K_Yen_bank_of_Japan_note_-_back.jpg",
+    "circulationStart": "2004-11-01",
+    "circulationEnd": null
+  },
+  {
+    "id": "JPY-5000-2004",
+    "currency": "JPY",
+    "value": 5000,
+    "year": 2004,
+    "title": "Higuchi Ichiyō",
+    "reverseTitle": "Irises by Ogata Kōrin",
+    "dimensions": "156 × 76",
+    "material": "Plant-fibre paper",
+    "series": "Series E",
+    "front": "./notes/JPY-5000-2004-front.jpg",
+    "back": "./notes/JPY-5000-2004-back.jpg",
+    "source": "https://www.boj.or.jp/en/note_tfjgs/note/valid/issue.htm",
+    "imageSource": "https://en.wikipedia.org/wiki/File:5000_Yenes_(2004)_(Anverso).jpg",
+    "status": "Not issued",
+    "orientation": "Horizontal",
+    "description": "Series E. Earlier design; stopping issuance does not remove legal-tender status.",
+    "frontOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/5000_Yenes_%282004%29_%28Anverso%29.jpg/120px-5000_Yenes_%282004%29_%28Anverso%29.jpg",
+    "backOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/5000_Yenes_%282004%29_%28Reverso%29.jpg/120px-5000_Yenes_%282004%29_%28Reverso%29.jpg",
+    "circulationStart": "2004-11-01",
+    "circulationEnd": null
+  },
+  {
+    "id": "JPY-10000-2004",
+    "currency": "JPY",
+    "value": 10000,
+    "year": 2004,
+    "title": "Fukuzawa Yukichi",
+    "reverseTitle": "Phoenix at Byōdō-in",
+    "dimensions": "160 × 76",
+    "material": "Plant-fibre paper",
+    "series": "Series E",
+    "front": "./notes/JPY-10000-2004-front.jpg",
+    "back": "./notes/JPY-10000-2004-back.jpg",
+    "source": "https://www.boj.or.jp/en/note_tfjgs/note/valid/issue.htm",
+    "imageSource": "https://en.wikipedia.org/wiki/File:10000_Yenes_(Anverso).jpg",
+    "status": "Not issued",
+    "orientation": "Horizontal",
+    "description": "Series E. Earlier design; stopping issuance does not remove legal-tender status.",
+    "frontOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/10000_Yenes_%28Anverso%29.jpg/120px-10000_Yenes_%28Anverso%29.jpg",
+    "backOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/10000_Yenes_%28Reverso%29.jpg/120px-10000_Yenes_%28Reverso%29.jpg",
+    "circulationStart": "2004-11-01",
+    "circulationEnd": null
+  },
+  {
+    "id": "BRL-1-1994",
+    "currency": "BRL",
+    "value": 1,
+    "year": 1994,
+    "title": "Effigy of the Republic",
+    "reverseTitle": "Hummingbird",
+    "dimensions": "140 × 65",
+    "material": "Cotton paper",
+    "series": "First family",
+    "front": "./notes/BRL-1-1994-front.jpg",
+    "back": "./notes/BRL-1-1994-back.jpg",
+    "source": "https://www.bcb.gov.br/cedulasemoedas/cedulas",
+    "imageSource": "https://en.wikipedia.org/wiki/File:1_Brazil_real_First_Obverse_01.jpg",
+    "status": "Withdrawing",
+    "orientation": "Horizontal",
+    "description": "Earlier real design. Banks are collecting these notes, but they remain valid for payment; no final withdrawal date is established.",
+    "frontOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/1_Brazil_real_First_Obverse_01.jpg/250px-1_Brazil_real_First_Obverse_01.jpg",
+    "backOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/1_Brazil_real_First_Reverse.jpg/250px-1_Brazil_real_First_Reverse.jpg",
+    "circulationStart": "1994",
+    "circulationEnd": null
+  },
+  {
+    "id": "BRL-2-2001",
+    "currency": "BRL",
+    "value": 2,
+    "year": 2001,
+    "title": "Effigy of the Republic",
+    "reverseTitle": "Hawksbill turtle",
+    "dimensions": "140 × 65",
+    "material": "Cotton paper",
+    "series": "First family",
+    "front": "./notes/BRL-2-2001-front.jpg",
+    "back": "./notes/BRL-2-2001-back.jpg",
+    "source": "https://www.bcb.gov.br/cedulasemoedas/cedulas",
+    "imageSource": "https://en.wikipedia.org/wiki/File:2_Brazil_real_First_Obverse.jpg",
+    "status": "Withdrawing",
+    "orientation": "Horizontal",
+    "description": "Earlier real design. Banks are collecting these notes, but they remain valid for payment; no final withdrawal date is established.",
+    "frontOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/2_Brazil_real_First_Obverse.jpg/250px-2_Brazil_real_First_Obverse.jpg",
+    "backOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/2_Brazil_real_First_Reverse.jpg/250px-2_Brazil_real_First_Reverse.jpg",
+    "circulationStart": "2001",
+    "circulationEnd": null
+  },
+  {
+    "id": "BRL-5-1994",
+    "currency": "BRL",
+    "value": 5,
+    "year": 1994,
+    "title": "Effigy of the Republic",
+    "reverseTitle": "Great egret",
+    "dimensions": "140 × 65",
+    "material": "Cotton paper",
+    "series": "First family",
+    "front": "./notes/BRL-5-1994-front.jpg",
+    "back": "./notes/BRL-5-1994-back.jpg",
+    "source": "https://www.bcb.gov.br/cedulasemoedas/cedulas",
+    "imageSource": "https://en.wikipedia.org/wiki/File:5_Brazil_real_First_Obverse.jpg",
+    "status": "Withdrawing",
+    "orientation": "Horizontal",
+    "description": "Earlier real design. Banks are collecting these notes, but they remain valid for payment; no final withdrawal date is established.",
+    "frontOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/5_Brazil_real_First_Obverse.jpg/250px-5_Brazil_real_First_Obverse.jpg",
+    "backOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/5_Brazil_real_First_Reverse.jpg/250px-5_Brazil_real_First_Reverse.jpg",
+    "circulationStart": "1994",
+    "circulationEnd": null
+  },
+  {
+    "id": "BRL-10-1994",
+    "currency": "BRL",
+    "value": 10,
+    "year": 1994,
+    "title": "Effigy of the Republic",
+    "reverseTitle": "Green-winged macaw",
+    "dimensions": "140 × 65",
+    "material": "Cotton paper",
+    "series": "First family",
+    "front": "./notes/BRL-10-1994-front.jpg",
+    "back": "./notes/BRL-10-1994-back.jpg",
+    "source": "https://www.bcb.gov.br/cedulasemoedas/cedulas",
+    "imageSource": "https://en.wikipedia.org/wiki/File:10_Brazil_real_First_Obverse.jpg",
+    "status": "Withdrawing",
+    "orientation": "Horizontal",
+    "description": "Earlier real design. Banks are collecting these notes, but they remain valid for payment; no final withdrawal date is established.",
+    "frontOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/10_Brazil_real_First_Obverse.jpg/250px-10_Brazil_real_First_Obverse.jpg",
+    "backOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/10_Brazil_real_First_Reverse.jpg/250px-10_Brazil_real_First_Reverse.jpg",
+    "circulationStart": "1994",
+    "circulationEnd": null
+  },
+  {
+    "id": "BRL-20-2002",
+    "currency": "BRL",
+    "value": 20,
+    "year": 2002,
+    "title": "Effigy of the Republic",
+    "reverseTitle": "Golden lion tamarin",
+    "dimensions": "140 × 65",
+    "material": "Cotton paper",
+    "series": "First family",
+    "front": "./notes/BRL-20-2002-front.jpg",
+    "back": "./notes/BRL-20-2002-back.jpg",
+    "source": "https://www.bcb.gov.br/cedulasemoedas/cedulas",
+    "imageSource": "https://en.wikipedia.org/wiki/File:20_Brazil_real_First_Obverse.jpg",
+    "status": "Withdrawing",
+    "orientation": "Horizontal",
+    "description": "Earlier real design. Banks are collecting these notes, but they remain valid for payment; no final withdrawal date is established.",
+    "frontOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/20_Brazil_real_First_Obverse.jpg/250px-20_Brazil_real_First_Obverse.jpg",
+    "backOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/20_Brazil_real_First_Reverse.jpg/250px-20_Brazil_real_First_Reverse.jpg",
+    "circulationStart": "2002",
+    "circulationEnd": null
+  },
+  {
+    "id": "BRL-50-1994",
+    "currency": "BRL",
+    "value": 50,
+    "year": 1994,
+    "title": "Effigy of the Republic",
+    "reverseTitle": "Jaguar",
+    "dimensions": "140 × 65",
+    "material": "Cotton paper",
+    "series": "First family",
+    "front": "./notes/BRL-50-1994-front.jpg",
+    "back": "./notes/BRL-50-1994-back.jpg",
+    "source": "https://www.bcb.gov.br/cedulasemoedas/cedulas",
+    "imageSource": "https://en.wikipedia.org/wiki/File:50_Brazil_real_First_Obverse.jpg",
+    "status": "Withdrawing",
+    "orientation": "Horizontal",
+    "description": "Earlier real design. Banks are collecting these notes, but they remain valid for payment; no final withdrawal date is established.",
+    "frontOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/50_Brazil_real_First_Obverse.jpg/250px-50_Brazil_real_First_Obverse.jpg",
+    "backOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/50_Brazil_real_First_Reverse.jpg/250px-50_Brazil_real_First_Reverse.jpg",
+    "circulationStart": "1994",
+    "circulationEnd": null
+  },
+  {
+    "id": "BRL-100-1994",
+    "currency": "BRL",
+    "value": 100,
+    "year": 1994,
+    "title": "Effigy of the Republic",
+    "reverseTitle": "Dusky grouper",
+    "dimensions": "140 × 65",
+    "material": "Cotton paper",
+    "series": "First family",
+    "front": "./notes/BRL-100-1994-front.jpg",
+    "back": "./notes/BRL-100-1994-back.jpg",
+    "source": "https://www.bcb.gov.br/cedulasemoedas/cedulas",
+    "imageSource": "https://en.wikipedia.org/wiki/File:100_Brazil_real_First_Obverse.jpg",
+    "status": "Withdrawing",
+    "orientation": "Horizontal",
+    "description": "Earlier real design. Banks are collecting these notes, but they remain valid for payment; no final withdrawal date is established.",
+    "frontOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/100_Brazil_real_First_Obverse.jpg/250px-100_Brazil_real_First_Obverse.jpg",
+    "backOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/100_Brazil_real_First_Reverse.jpg/250px-100_Brazil_real_First_Reverse.jpg",
+    "circulationStart": "1994",
+    "circulationEnd": null
+  },
+  {
+    "id": "BRL-10-2000",
+    "currency": "BRL",
+    "value": 10,
+    "year": 2000,
+    "title": "Pedro Álvares Cabral",
+    "reverseTitle": "Map and people of Brazil",
+    "dimensions": "140 × 65",
+    "material": "Polymer",
+    "series": "500 years commemorative",
+    "front": "./notes/BRL-10-2000-front.jpg",
+    "back": "./notes/BRL-10-2000-back.jpg",
+    "source": "https://www.bcb.gov.br/cedulasemoedas/cedulas",
+    "imageSource": "https://en.wikipedia.org/wiki/File:10_real_\"500_Years_Discovery_of_Brazil\"_Commemorative_Issue_Obverse.jpg",
+    "status": "Withdrawing",
+    "orientation": "Horizontal",
+    "description": "Earlier real design. Banks are collecting these notes, but they remain valid for payment; no final withdrawal date is established.",
+    "frontOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/10_real_%22500_Years_Discovery_of_Brazil%22_Commemorative_Issue_Obverse.jpg/250px-10_real_%22500_Years_Discovery_of_Brazil%22_Commemorative_Issue_Obverse.jpg",
+    "backOriginal": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/10_real_%22500_Years_Discovery_of_Brazil%22_Commemorative_Issue_Reverse.jpg/250px-10_real_%22500_Years_Discovery_of_Brazil%22_Commemorative_Issue_Reverse.jpg",
+    "circulationStart": "2000",
+    "circulationEnd": null
+  },
+  {
+    "id": "AUD-5-1995",
+    "currency": "AUD",
+    "value": 5,
+    "year": 1995,
+    "title": "Queen Elizabeth II",
+    "reverseTitle": "Parliament House",
+    "dimensions": "130 × 65",
+    "material": "Polymer",
+    "series": "First polymer series — brighter colours",
+    "front": "./notes/AUD-5-1995-front.jpg",
+    "back": "./notes/AUD-5-1995-back.jpg",
+    "source": "https://banknotes.rba.gov.au/australias-banknotes/history/",
+    "imageSource": "https://banknotes.rba.gov.au/banknote-features/images/five/five-banknote.jpg",
+    "status": "Not issued",
+    "orientation": "Horizontal",
+    "description": "Earlier polymer design. Australian banknotes from this series remain legal tender.",
+    "frontOriginal": "https://banknotes.rba.gov.au/banknote-features/images/five/five-banknote.jpg",
+    "backOriginal": "https://banknotes.rba.gov.au/banknote-features/images/five/five-banknote-flipped.jpg",
+    "circulationStart": "1995",
+    "circulationEnd": null,
+    "reproductionSource": "https://banknotes.rba.gov.au/legal/reproducing-banknotes/",
+    "imageTreatment": "Reference image limited to 72 dpi at 74% genuine dimensions"
+  },
+  {
+    "id": "AUD-10-1993",
+    "currency": "AUD",
+    "value": 10,
+    "year": 1993,
+    "title": "Banjo Paterson",
+    "reverseTitle": "Dame Mary Gilmore",
+    "dimensions": "137 × 65",
+    "material": "Polymer",
+    "series": "First polymer series",
+    "front": "./notes/AUD-10-1993-front.jpg",
+    "back": "./notes/AUD-10-1993-back.jpg",
+    "source": "https://banknotes.rba.gov.au/australias-banknotes/history/",
+    "imageSource": "https://banknotes.rba.gov.au/banknote-features/images/ten/ten-banknote.jpg",
+    "status": "Not issued",
+    "orientation": "Horizontal",
+    "description": "Earlier polymer design. Australian banknotes from this series remain legal tender.",
+    "frontOriginal": "https://banknotes.rba.gov.au/banknote-features/images/ten/ten-banknote.jpg",
+    "backOriginal": "https://banknotes.rba.gov.au/banknote-features/images/ten/ten-banknote-flipped.jpg",
+    "circulationStart": "1993",
+    "circulationEnd": null,
+    "reproductionSource": "https://banknotes.rba.gov.au/legal/reproducing-banknotes/",
+    "imageTreatment": "Reference image limited to 72 dpi at 74% genuine dimensions"
+  },
+  {
+    "id": "AUD-20-1994",
+    "currency": "AUD",
+    "value": 20,
+    "year": 1994,
+    "title": "Mary Reibey",
+    "reverseTitle": "John Flynn",
+    "dimensions": "144 × 65",
+    "material": "Polymer",
+    "series": "First polymer series",
+    "front": "./notes/AUD-20-1994-front.jpg",
+    "back": "./notes/AUD-20-1994-back.jpg",
+    "source": "https://banknotes.rba.gov.au/australias-banknotes/history/",
+    "imageSource": "https://banknotes.rba.gov.au/banknote-features/images/twenty/twenty-banknote.jpg",
+    "status": "Not issued",
+    "orientation": "Horizontal",
+    "description": "Earlier polymer design. Australian banknotes from this series remain legal tender.",
+    "frontOriginal": "https://banknotes.rba.gov.au/banknote-features/images/twenty/twenty-banknote.jpg",
+    "backOriginal": "https://banknotes.rba.gov.au/banknote-features/images/twenty/twenty-banknote-flipped.jpg",
+    "circulationStart": "1994",
+    "circulationEnd": null,
+    "reproductionSource": "https://banknotes.rba.gov.au/legal/reproducing-banknotes/",
+    "imageTreatment": "Reference image limited to 72 dpi at 74% genuine dimensions"
+  },
+  {
+    "id": "AUD-50-1995",
+    "currency": "AUD",
+    "value": 50,
+    "year": 1995,
+    "title": "David Unaipon",
+    "reverseTitle": "Edith Cowan",
+    "dimensions": "151 × 65",
+    "material": "Polymer",
+    "series": "First polymer series",
+    "front": "./notes/AUD-50-1995-front.jpg",
+    "back": "./notes/AUD-50-1995-back.jpg",
+    "source": "https://banknotes.rba.gov.au/australias-banknotes/history/",
+    "imageSource": "https://banknotes.rba.gov.au/banknote-features/images/fifty/fifty-banknote.jpg",
+    "status": "Not issued",
+    "orientation": "Horizontal",
+    "description": "Earlier polymer design. Australian banknotes from this series remain legal tender.",
+    "frontOriginal": "https://banknotes.rba.gov.au/banknote-features/images/fifty/fifty-banknote.jpg",
+    "backOriginal": "https://banknotes.rba.gov.au/banknote-features/images/fifty/fifty-banknote-flipped.jpg",
+    "circulationStart": "1995",
+    "circulationEnd": null,
+    "reproductionSource": "https://banknotes.rba.gov.au/legal/reproducing-banknotes/",
+    "imageTreatment": "Reference image limited to 72 dpi at 74% genuine dimensions"
+  },
+  {
+    "id": "AUD-100-1996",
+    "currency": "AUD",
+    "value": 100,
+    "year": 1996,
+    "title": "Dame Nellie Melba",
+    "reverseTitle": "Sir John Monash",
+    "dimensions": "158 × 65",
+    "material": "Polymer",
+    "series": "First polymer series",
+    "front": "./notes/AUD-100-1996-front.jpg",
+    "back": "./notes/AUD-100-1996-back.jpg",
+    "source": "https://banknotes.rba.gov.au/australias-banknotes/history/",
+    "imageSource": "https://banknotes.rba.gov.au/banknote-features/images/hundred/hundred-banknote.jpg",
+    "status": "Not issued",
+    "orientation": "Horizontal",
+    "description": "Earlier polymer design. Australian banknotes from this series remain legal tender.",
+    "frontOriginal": "https://banknotes.rba.gov.au/banknote-features/images/hundred/hundred-banknote.jpg",
+    "backOriginal": "https://banknotes.rba.gov.au/banknote-features/images/hundred/hundred-banknote-flipped.jpg",
+    "circulationStart": "1996",
+    "circulationEnd": null,
+    "reproductionSource": "https://banknotes.rba.gov.au/legal/reproducing-banknotes/",
+    "imageTreatment": "Reference image limited to 72 dpi at 74% genuine dimensions"
+  },
+  {
+    "id": "CAD-2-1986",
+    "currency": "CAD",
+    "value": 2,
+    "year": 1986,
+    "title": "Queen Elizabeth II",
+    "reverseTitle": "American robins",
+    "dimensions": "152 × 70",
+    "material": "Cotton paper",
+    "series": "Birds of Canada",
+    "front": "./notes/CAD-2-1986-front.jpg",
+    "back": "./notes/CAD-2-1986-back.jpg",
+    "source": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/1986-the-birds-of-canada-series/birds-of-canada-series-2-note/",
+    "imageSource": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/1986-the-birds-of-canada-series/birds-of-canada-series-2-note/",
+    "status": "Withdrawn",
+    "orientation": "Horizontal",
+    "description": "Earlier Canadian paper design. Legal tender status removed on 1 January 2021; redemption remains available.",
+    "frontOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/1986-2-dollar-recto_Gerald-Bouey.jpg",
+    "backOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/1986-2-dollar-verso_Gerald-Bouey.jpg",
+    "circulationStart": "1986",
+    "circulationEnd": "2020-12-31",
+    "reproductionSource": "https://www.bankofcanada.ca/banknotes/using-bank-note-images/",
+    "imageTreatment": "SPECIMEN added to reference reproduction",
+    "circulationSource": "https://www.bankofcanada.ca/2021/01/about-legal-tender/"
+  },
+  {
+    "id": "CAD-5-1986",
+    "currency": "CAD",
+    "value": 5,
+    "year": 1986,
+    "title": "Wilfrid Laurier",
+    "reverseTitle": "Belted kingfisher",
+    "dimensions": "152 × 70",
+    "material": "Cotton paper",
+    "series": "Birds of Canada",
+    "front": "./notes/CAD-5-1986-front.jpg",
+    "back": "./notes/CAD-5-1986-back.jpg",
+    "source": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/1986-the-birds-of-canada-series/birds-of-canada-series-5-note/",
+    "imageSource": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/1986-the-birds-of-canada-series/birds-of-canada-series-5-note/",
+    "status": "Not issued",
+    "orientation": "Horizontal",
+    "description": "Earlier Canadian paper design. This denomination remains legal tender; paper designs are no longer issued.",
+    "frontOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/1986-5-dollar-recto_Gerald-Bouey.jpg",
+    "backOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/1986-5-dollar-verso_Gerald-Bouey.jpg",
+    "circulationStart": "1986",
+    "circulationEnd": null,
+    "reproductionSource": "https://www.bankofcanada.ca/banknotes/using-bank-note-images/",
+    "imageTreatment": "SPECIMEN added to reference reproduction"
+  },
+  {
+    "id": "CAD-10-1989",
+    "currency": "CAD",
+    "value": 10,
+    "year": 1989,
+    "title": "John A. Macdonald",
+    "reverseTitle": "Osprey",
+    "dimensions": "152 × 70",
+    "material": "Cotton paper",
+    "series": "Birds of Canada",
+    "front": "./notes/CAD-10-1989-front.jpg",
+    "back": "./notes/CAD-10-1989-back.jpg",
+    "source": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/1986-the-birds-of-canada-series/birds-of-canada-series-10-note/",
+    "imageSource": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/1986-the-birds-of-canada-series/birds-of-canada-series-10-note/",
+    "status": "Not issued",
+    "orientation": "Horizontal",
+    "description": "Earlier Canadian paper design. This denomination remains legal tender; paper designs are no longer issued.",
+    "frontOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/1989-10-dollar-recto_John-Crow.jpg",
+    "backOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/1989-10-dollar-verso_John-Crow.jpg",
+    "circulationStart": "1989",
+    "circulationEnd": null,
+    "reproductionSource": "https://www.bankofcanada.ca/banknotes/using-bank-note-images/",
+    "imageTreatment": "SPECIMEN added to reference reproduction"
+  },
+  {
+    "id": "CAD-20-1991",
+    "currency": "CAD",
+    "value": 20,
+    "year": 1991,
+    "title": "Queen Elizabeth II",
+    "reverseTitle": "Common loon",
+    "dimensions": "152 × 70",
+    "material": "Cotton paper",
+    "series": "Birds of Canada",
+    "front": "./notes/CAD-20-1991-front.jpg",
+    "back": "./notes/CAD-20-1991-back.jpg",
+    "source": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/1986-the-birds-of-canada-series/birds-of-canada-series-20-note/",
+    "imageSource": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/1986-the-birds-of-canada-series/birds-of-canada-series-20-note/",
+    "status": "Not issued",
+    "orientation": "Horizontal",
+    "description": "Earlier Canadian paper design. This denomination remains legal tender; paper designs are no longer issued.",
+    "frontOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/1991-20-dollar-recto_John-Crow.jpg",
+    "backOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/1991-20-dollar-verso_David-Dodge.jpg",
+    "circulationStart": "1991",
+    "circulationEnd": null,
+    "reproductionSource": "https://www.bankofcanada.ca/banknotes/using-bank-note-images/",
+    "imageTreatment": "SPECIMEN added to reference reproduction"
+  },
+  {
+    "id": "CAD-50-1989",
+    "currency": "CAD",
+    "value": 50,
+    "year": 1989,
+    "title": "William Lyon Mackenzie King",
+    "reverseTitle": "Snowy owl",
+    "dimensions": "152 × 70",
+    "material": "Cotton paper",
+    "series": "Birds of Canada",
+    "front": "./notes/CAD-50-1989-front.jpg",
+    "back": "./notes/CAD-50-1989-back.jpg",
+    "source": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/1986-the-birds-of-canada-series/birds-of-canada-series-50-note/",
+    "imageSource": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/1986-the-birds-of-canada-series/birds-of-canada-series-50-note/",
+    "status": "Not issued",
+    "orientation": "Horizontal",
+    "description": "Earlier Canadian paper design. This denomination remains legal tender; paper designs are no longer issued.",
+    "frontOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/1986-50-dollar-recto_Gordon-Thiessen.jpg",
+    "backOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/1986-50-dollar-verso_Gordon-Thiessen.jpg",
+    "circulationStart": "1989",
+    "circulationEnd": null,
+    "reproductionSource": "https://www.bankofcanada.ca/banknotes/using-bank-note-images/",
+    "imageTreatment": "SPECIMEN added to reference reproduction"
+  },
+  {
+    "id": "CAD-100-1990",
+    "currency": "CAD",
+    "value": 100,
+    "year": 1990,
+    "title": "Robert Borden",
+    "reverseTitle": "Canada geese",
+    "dimensions": "152 × 70",
+    "material": "Cotton paper",
+    "series": "Birds of Canada",
+    "front": "./notes/CAD-100-1990-front.jpg",
+    "back": "./notes/CAD-100-1990-back.jpg",
+    "source": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/1986-the-birds-of-canada-series/birds-of-canada-series-100-note/",
+    "imageSource": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/1986-the-birds-of-canada-series/birds-of-canada-series-100-note/",
+    "status": "Not issued",
+    "orientation": "Horizontal",
+    "description": "Earlier Canadian paper design. This denomination remains legal tender; paper designs are no longer issued.",
+    "frontOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/1988-100-dollar-recto_John-Crow.jpg",
+    "backOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/1988-100-dollar-verso_John-Crow.jpg",
+    "circulationStart": "1990",
+    "circulationEnd": null,
+    "reproductionSource": "https://www.bankofcanada.ca/banknotes/using-bank-note-images/",
+    "imageTreatment": "SPECIMEN added to reference reproduction"
+  },
+  {
+    "id": "CAD-1000-1992",
+    "currency": "CAD",
+    "value": 1000,
+    "year": 1992,
+    "title": "Queen Elizabeth II",
+    "reverseTitle": "Pine grosbeaks",
+    "dimensions": "152 × 70",
+    "material": "Cotton paper",
+    "series": "Birds of Canada",
+    "front": "./notes/CAD-1000-1992-front.jpg",
+    "back": "./notes/CAD-1000-1992-back.jpg",
+    "source": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/1986-the-birds-of-canada-series/birds-of-canada-series-1000-note/",
+    "imageSource": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/1986-the-birds-of-canada-series/birds-of-canada-series-1000-note/",
+    "status": "Withdrawn",
+    "orientation": "Horizontal",
+    "description": "Earlier Canadian paper design. Legal tender status removed on 1 January 2021; redemption remains available.",
+    "frontOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/1988-1000-dollar-recto_John-Crow.jpg",
+    "backOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/1988-1000-dollar-verso_John-Crow.jpg",
+    "circulationStart": "1992",
+    "circulationEnd": "2020-12-31",
+    "reproductionSource": "https://www.bankofcanada.ca/banknotes/using-bank-note-images/",
+    "imageTreatment": "SPECIMEN added to reference reproduction",
+    "circulationSource": "https://www.bankofcanada.ca/2021/01/about-legal-tender/"
+  },
+  {
+    "id": "CAD-5-2002",
+    "currency": "CAD",
+    "value": 5,
+    "year": 2002,
+    "title": "Wilfrid Laurier",
+    "reverseTitle": "Children at play",
+    "dimensions": "152 × 70",
+    "material": "Cotton paper",
+    "series": "Canadian Journey",
+    "front": "./notes/CAD-5-2002-front.jpg",
+    "back": "./notes/CAD-5-2002-back.jpg",
+    "source": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/2001-2006-canadian-journey-series/canadian-journey-series-5-note/",
+    "imageSource": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/2001-2006-canadian-journey-series/canadian-journey-series-5-note/",
+    "status": "Not issued",
+    "orientation": "Horizontal",
+    "description": "Earlier Canadian paper design. This denomination remains legal tender; paper designs are no longer issued.",
+    "frontOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/2002-5-dollar-recto_David-Dodge.jpg",
+    "backOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/2002-5-dollar-verso_David-Dodge.jpg",
+    "circulationStart": "2002",
+    "circulationEnd": null,
+    "reproductionSource": "https://www.bankofcanada.ca/banknotes/using-bank-note-images/",
+    "imageTreatment": "SPECIMEN added to reference reproduction"
+  },
+  {
+    "id": "CAD-10-2001",
+    "currency": "CAD",
+    "value": 10,
+    "year": 2001,
+    "title": "John A. Macdonald",
+    "reverseTitle": "Remembrance and peacekeeping",
+    "dimensions": "152 × 70",
+    "material": "Cotton paper",
+    "series": "Canadian Journey",
+    "front": "./notes/CAD-10-2001-front.jpg",
+    "back": "./notes/CAD-10-2001-back.jpg",
+    "source": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/2001-2006-canadian-journey-series/canadian-journey-series-10-note/",
+    "imageSource": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/2001-2006-canadian-journey-series/canadian-journey-series-10-note/",
+    "status": "Not issued",
+    "orientation": "Horizontal",
+    "description": "Earlier Canadian paper design. This denomination remains legal tender; paper designs are no longer issued.",
+    "frontOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/2005-10-dollar-recto_no-strip.jpg",
+    "backOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/2005-10-dollar-verso_no-strip.jpg",
+    "circulationStart": "2001",
+    "circulationEnd": null,
+    "reproductionSource": "https://www.bankofcanada.ca/banknotes/using-bank-note-images/",
+    "imageTreatment": "SPECIMEN added to reference reproduction"
+  },
+  {
+    "id": "CAD-20-2004",
+    "currency": "CAD",
+    "value": 20,
+    "year": 2004,
+    "title": "Queen Elizabeth II",
+    "reverseTitle": "Art by Bill Reid",
+    "dimensions": "152 × 70",
+    "material": "Cotton paper",
+    "series": "Canadian Journey",
+    "front": "./notes/CAD-20-2004-front.jpg",
+    "back": "./notes/CAD-20-2004-back.jpg",
+    "source": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/2001-2006-canadian-journey-series/canadian-journey-series-20-note/",
+    "imageSource": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/2001-2006-canadian-journey-series/canadian-journey-series-20-note/",
+    "status": "Not issued",
+    "orientation": "Horizontal",
+    "description": "Earlier Canadian paper design. This denomination remains legal tender; paper designs are no longer issued.",
+    "frontOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/2004-20-dollar-recto_Mark-Carney.jpg",
+    "backOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/2004-20-dollar-verso_David-Dodge.jpg",
+    "circulationStart": "2004",
+    "circulationEnd": null,
+    "reproductionSource": "https://www.bankofcanada.ca/banknotes/using-bank-note-images/",
+    "imageTreatment": "SPECIMEN added to reference reproduction"
+  },
+  {
+    "id": "CAD-50-2004",
+    "currency": "CAD",
+    "value": 50,
+    "year": 2004,
+    "title": "William Lyon Mackenzie King",
+    "reverseTitle": "Nation building and women’s rights",
+    "dimensions": "152 × 70",
+    "material": "Cotton paper",
+    "series": "Canadian Journey",
+    "front": "./notes/CAD-50-2004-front.jpg",
+    "back": "./notes/CAD-50-2004-back.jpg",
+    "source": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/2001-2006-canadian-journey-series/canadian-journey-series-50-note/",
+    "imageSource": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/2001-2006-canadian-journey-series/canadian-journey-series-50-note/",
+    "status": "Not issued",
+    "orientation": "Horizontal",
+    "description": "Earlier Canadian paper design. This denomination remains legal tender; paper designs are no longer issued.",
+    "frontOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/2004-50-dollar-recto_Mark-Carney.jpg",
+    "backOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/2004-50-dollar-verso_David-Dodge.jpg",
+    "circulationStart": "2004",
+    "circulationEnd": null,
+    "reproductionSource": "https://www.bankofcanada.ca/banknotes/using-bank-note-images/",
+    "imageTreatment": "SPECIMEN added to reference reproduction"
+  },
+  {
+    "id": "CAD-100-2004",
+    "currency": "CAD",
+    "value": 100,
+    "year": 2004,
+    "title": "Robert Borden",
+    "reverseTitle": "Exploration and innovation",
+    "dimensions": "152 × 70",
+    "material": "Cotton paper",
+    "series": "Canadian Journey",
+    "front": "./notes/CAD-100-2004-front.jpg",
+    "back": "./notes/CAD-100-2004-back.jpg",
+    "source": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/2001-2006-canadian-journey-series/canadian-journey-series-100-note/",
+    "imageSource": "https://www.bankofcanadamuseum.ca/complete-bank-note-series/2001-2006-canadian-journey-series/canadian-journey-series-100-note/",
+    "status": "Not issued",
+    "orientation": "Horizontal",
+    "description": "Earlier Canadian paper design. This denomination remains legal tender; paper designs are no longer issued.",
+    "frontOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/2004-100-dollar-recto_Mark-Carney.jpg",
+    "backOriginal": "https://www.bankofcanadamuseum.ca/wp-content/uploads/2014/07/2004-100-dollar-verso_David-Dodge.jpg",
+    "circulationStart": "2004",
+    "circulationEnd": null,
+    "reproductionSource": "https://www.bankofcanada.ca/banknotes/using-bank-note-images/",
+    "imageTreatment": "SPECIMEN added to reference reproduction"
   }
 ]

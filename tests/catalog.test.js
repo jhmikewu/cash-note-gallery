@@ -8,10 +8,48 @@ import {
   resolveCountry,
   matchesCountry,
   euroMembers,
+  overlapsPeriod,
 } from "../src/catalog.js";
 const notes = JSON.parse(
   readFileSync(new URL("../src/notes.json", import.meta.url)),
 );
+test("circulation overlap includes cutoff day but excludes redemption-only periods", () => {
+  assert.ok(
+    overlapsPeriod(
+      { year: 1980, circulationEnd: "2000-01-01" },
+      "2000-01-01",
+      "2026-11-03",
+    ),
+  );
+  assert.ok(
+    !overlapsPeriod(
+      { year: 1980, circulationEnd: "1999-12-31" },
+      "2000-01-01",
+      "2026-11-03",
+    ),
+  );
+  assert.ok(!overlapsPeriod({ year: 2027 }, "2000-01-01", "2026-11-03"));
+});
+test("UK portrait variants coexist and withdrawn notes leave later year searches", () => {
+  const all = filterNotes(notes, {
+    ...defaults,
+    country: "GB",
+    denomination: "20",
+  });
+  assert.ok(all.some((n) => n.title === "King Charles III"));
+  assert.ok(
+    all.some(
+      (n) => n.title === "Queen Elizabeth II" && n.material === "Polymer",
+    ),
+  );
+  assert.ok(all.some((n) => n.reverseTitle === "Michael Faraday"));
+  const later = filterNotes(notes, {
+    ...defaults,
+    country: "GB",
+    from: "2023",
+  });
+  assert.ok(later.every((n) => n.status !== "Withdrawn"));
+});
 test("19 countries, euro area and two SARs have complete collections", () => {
   assert.equal(countries.length, 22);
   assert.equal(

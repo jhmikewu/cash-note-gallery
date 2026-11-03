@@ -95,7 +95,10 @@ export function filterNotes(notes, filters) {
         (filters.status === "all" || n.status === filters.status) &&
         (filters.orientation === "all" ||
           n.orientation === filters.orientation) &&
-        (!filters.from || Number(filters.from) <= 2026) &&
+        overlapsPeriod(n, "2000-01-01", "2026-11-03") &&
+        (!filters.from ||
+          Number(filters.from) <=
+            Number((n.circulationEnd || "2026").slice(0, 4))) &&
         (!filters.to || n.year <= Number(filters.to)) &&
         (!filters.from ||
           !filters.to ||
@@ -111,6 +114,19 @@ export function filterNotes(notes, filters) {
           ? b.value - a.value
           : a.currency.localeCompare(b.currency) || a.value - b.value,
     );
+}
+// Dates are inclusive. A null end means no withdrawal has been recorded.
+// Year-only source dates stay year-only instead of inventing a day/month.
+export function overlapsPeriod(note, from, to) {
+  const start = note.circulationStart || String(note.year);
+  const end = note.circulationEnd;
+  return (
+    `${start.length === 4 ? start + "-01-01" : start}` <= to &&
+    (!end || `${end.length === 4 ? end + "-12-31" : end}` >= from)
+  );
+}
+export function circulationLabel(note) {
+  return `${note.year}–${note.circulationEnd ? note.circulationEnd.slice(0, 4) : "present"}`;
 }
 export function collectionFor(country) {
   return countries.find((c) => c.id === resolveCountry(country));

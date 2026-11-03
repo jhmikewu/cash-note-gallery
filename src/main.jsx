@@ -23,6 +23,7 @@ import {
   resolveCountry,
   matchesCountry,
   collectionFor,
+  circulationLabel,
   defaults,
   filterNotes,
   denomination,
@@ -204,7 +205,10 @@ function Viewer({ note, onClose, onNavigate }) {
             </div>
             <div>
               <dt>Active years</dt>
-              <dd>{note.year} – present</dd>
+              <dd>
+                {note.circulationStart || note.year} –{" "}
+                {note.circulationEnd || "present"}
+              </dd>
             </div>
             <div>
               <dt>Material</dt>
@@ -267,9 +271,10 @@ function About({ onClose }) {
         19 countries and the euro area selected from the IMF October 2026
         nominal GDP ranking, counting the euro area once at its first country’s
         position and continuing down the ranking to fill the remaining places.
-        This first collection features a representative current design for each
-        denomination, rather than every signature, printing or older valid
-        series. UK coverage is Bank of England notes.
+        The collection includes current designs and researched historical
+        variants whose circulation overlaps 1 January 2000 or later. Historical
+        coverage is being expanded; signature and serial-number changes are not
+        separate designs. UK coverage is Bank of England notes.
       </p>
       <p>
         Hong Kong SAR, China and Macau SAR, China are two additional entries,
@@ -452,7 +457,7 @@ function App() {
             </div>
             <div className="country-heading-right">
               <span className="status">
-                <b /> Current collection
+                <b /> Since 2000
               </span>
               <button
                 className="mobile-country"
@@ -492,11 +497,17 @@ function App() {
                   onChange={(e) => update("denomination", e.target.value)}
                 >
                   <option value="all">All values</option>
-                  {available.map((n) => (
-                    <option key={n.id} value={n.value}>
-                      {denomination(n)}
-                    </option>
-                  ))}
+                  {available
+                    .filter(
+                      (n, i, all) =>
+                        all.findIndex((other) => other.value === n.value) === i,
+                    )
+                    .sort((a, b) => a.value - b.value)
+                    .map((n) => (
+                      <option key={n.id} value={n.value}>
+                        {denomination(n)}
+                      </option>
+                    ))}
                 </select>
               </label>
               <label className="select-wrap">
@@ -553,9 +564,10 @@ function App() {
                     value={f.status}
                     onChange={(e) => update("status", e.target.value)}
                   >
-                    <option value="all">All active notes</option>
+                    <option value="all">All statuses</option>
                     <option value="Issued">Currently issued</option>
                     <option value="Not issued">No longer issued</option>
+                    <option value="Withdrawn">Withdrawn</option>
                     <option value="Withdrawing">Being withdrawn</option>
                   </select>
                 </label>
@@ -632,7 +644,7 @@ function App() {
                 <button
                   className={`note-display ${(side === "back" ? n.backOrientation || n.orientation : n.orientation) === "Vertical" ? "vertical" : ""}`}
                   onClick={() => setSelected(n)}
-                  aria-label={`Inspect ${denomination(n)}`}
+                  aria-label={`Inspect ${denomination(n)} · ${n.series} · ${n.year}`}
                 >
                   <NoteImage note={n} side={side} loading="lazy" />
                   <span className="inspect">
@@ -646,7 +658,7 @@ function App() {
                     <p>{side === "front" ? n.title : n.reverseTitle}</p>
                   </div>
                   <span>
-                    {n.year}
+                    {circulationLabel(n)}
                     <br />
                     <small>{n.material}</small>
                   </span>
