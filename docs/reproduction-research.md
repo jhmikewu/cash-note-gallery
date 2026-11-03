@@ -1,5 +1,7 @@
 # Image reproduction research — 3 November 2026
 
+Indonesia additions use reduced SPECIMEN references under the educational provision in Currency Law 7/2011, Article 24(1); separate source copyright permission remains unresolved. China's researched historical additions are deferred pending resolution of its approval conditions. See [second-batch evidence](indonesia-series-expansion.md).
+
 This is a record of source checks, not a blanket legal clearance. Availability on an issuer or museum website does not by itself grant reuse rights. Existing source markings must never be removed. A replacement needs both reproduction-rule and source-rights checks.
 
 | Collection | Source | Finding for this flat digital gallery |

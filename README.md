@@ -36,7 +36,7 @@ The static production site is generated in `dist/`. Vite uses relative asset pat
 
 ## Catalogue scope and sources
 
-The 20 members follow the **IMF October 2026 nominal GDP projections**, as [tabulated by Visual Capitalist](https://www.visualcapitalist.com/the-128-trillion-global-economy-in-2026/), with collection scope adjustments. Count the euro area once at Germany’s position, skip subsequent euro-area countries, exclude Taiwan from this catalogue, and continue until there are 20 members. The additional members are Poland, Argentina, Israel and Sweden. The euro area’s position is a browsing convention, not a separate calculation of aggregate GDP. There are 259 curated banknotes and 518 locally bundled images. The UK collection covers Bank of England notes, not the separate Scottish and Northern Irish issuers.
+The 20 members follow the **IMF October 2026 nominal GDP projections**, as [tabulated by Visual Capitalist](https://www.visualcapitalist.com/the-128-trillion-global-economy-in-2026/), with collection scope adjustments. Count the euro area once at Germany’s position, skip subsequent euro-area countries, exclude Taiwan from this catalogue, and continue until there are 20 members. The additional members are Poland, Argentina, Israel and Sweden. The euro area’s position is a browsing convention, not a separate calculation of aggregate GDP. There are 278 curated banknotes and 556 locally bundled images. The UK collection covers Bank of England notes, not the separate Scottish and Northern Irish issuers.
 
 Hong Kong SAR, China (HKD), and Macau SAR, China (MOP) are separate sidebar entries beside China (CNY), bringing the list to 22 entries: 19 countries, one euro area, and two SARs. Direct links use `?country=HK` and `?country=MO`; earlier `?country=CN&region=HK` or `region=MO` links still open the appropriate SAR. Hong Kong includes all three authorised banks’ 2003, 2010 and 2018 series plus government paper/polymer $10 notes; Macau includes current BOC/BNU designs and their preceding major series. Older ordinary issues remain to be added. Sources: [HKMA](https://www.hkma.gov.hk/eng/key-functions/money/hong-kong-currency/notes/), [AMCM](https://www.amcm.gov.mo/en/currency/currency-in-circulation-in-macao/banknotes/new-series), and [Sveriges Riksbank](https://www.riksbank.se/en-gb/payments--cash/notes--coins/notes/valid-banknotes/). `scripts/add-sar-collections.py` maintains these additions and removes the excluded TWD records.
 
@@ -65,3 +65,5 @@ Historical additions are maintained by `scripts/add-historical-variants.py` (UK)
 - `.github/workflows/check.yml`: build and tests on pushes and pull requests.
 
 Created in [T3 Code](https://t3.codes).
+
+The [Indonesia ordinary-series batch](docs/indonesia-series-expansion.md) adds 19 earlier designs, including the complete 2016 series and the 1999 polymer Rp100,000.

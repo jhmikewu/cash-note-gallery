@@ -14,6 +14,28 @@ import {
 const notes = JSON.parse(
   readFileSync(new URL("../src/notes.json", import.meta.url)),
 );
+test("Indonesian ordinary variants preserve withdrawal and material boundaries", () => {
+  const indonesia = filterNotes(notes, { ...defaults, country: "ID" });
+  assert.equal(indonesia.length, 26);
+  assert.equal(groupDenominations(indonesia).length, 7);
+  const old = indonesia.filter((n) => n.circulationEnd === "2008-12-30");
+  assert.equal(old.length, 4);
+  assert.ok(old.every((n) => overlapsPeriod(n, "2008-12-30", "2008-12-30")));
+  assert.ok(old.every((n) => !overlapsPeriod(n, "2008-12-31", "2026-11-03")));
+  assert.equal(
+    indonesia.find((n) => n.id === "IDR-100000-1999").material,
+    "Polymer",
+  );
+  const revised = indonesia.filter((n) => n.value === 10000);
+  assert.equal(revised.length, 5);
+  const heroes = indonesia.filter((n) => n.series === "2016 emission");
+  assert.equal(heroes.length, 7);
+  assert.ok(
+    heroes.every(
+      (n) => n.circulationStart === "2016-12-19" && n.circulationEnd === null,
+    ),
+  );
+});
 test("shelves group values with newest matching variant first", () => {
   const groups = groupDenominations(
     filterNotes(notes, { ...defaults, country: "GB" }),

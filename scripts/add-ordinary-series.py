@@ -38,7 +38,7 @@ def build(row):
         image = Image.open(io.BytesIO(data)).convert("RGB")
         if min(image.size) < 80:
             raise ValueError(f"Undersized reference: {url}")
-        if note.get("imagePolicy") == "snb-72dpi":
+        if note.get("imagePolicy") in ("snb-72dpi", "educational-specimen-72dpi"):
             width, height = [float(x.strip()) for x in note["dimensions"].split("×")]
             # SNB presents sixth-series portraits upright, rotated from landscape.
             if note["series"] == "Sixth series" and image.height > image.width:
